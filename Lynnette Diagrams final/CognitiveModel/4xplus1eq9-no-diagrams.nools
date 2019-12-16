@@ -1,0 +1,10 @@
+import("productionrulesMB.nools");
+
+global pName = "4xplus1eq9";
+global initLeft = "4x+1";
+global initRight = "9";
+global finalX = "2";
+
+global stepSkipLevel = 2;
+global parseProblem = true;
+global useDiagrams = false;

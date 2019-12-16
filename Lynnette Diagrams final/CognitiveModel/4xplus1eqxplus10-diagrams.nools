@@ -1,0 +1,15 @@
+import("productionrulesMB.nools");
+
+global pName = "4xplus1eqxplus10";
+global initLeft = "4x+1";
+global initRight = "x+10";
+global finalX = "3";
+
+global stepSkipLevel = 2;
+global parseProblem = true;
+global useDiagrams = true;
+
+global operation1 = ["subtraction", "subtraction", "division-simple"];
+global operand1 = ["1", "x", "3"];
+global expBefore1 = ["4x + 1eqx + 10", "4xeqx + 9", "3xeq9"];
+global expAfter1 = ["4x + 1 - 1eqx + 10 - 1", "4x - xeqx - x + 9", "3x/3eq9/3"];

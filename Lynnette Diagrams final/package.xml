@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package name="Lynnette Diagrams" label="Lynnette Diagrams" description="Lynnette with Diagram Explanations" tutor_type="javascript" save_state="true">
+  <Problems>
+    <Problem name="10eq5plusx-diagrams" label="10eq5plusx Diagrams" description="10eq5plusx Diagrams" tutor_flag="tutor" problem_file="10eq5plusx-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="12xeq2xplus10-diagrams" label="12xeq2xplus10 Diagrams" description="12xeq2xplus10 Diagrams" tutor_flag="tutor" problem_file="12xeq2xplus10-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="15eq4xplus3-diagrams" label="15eq4xplus3 Diagrams" description="15eq4xplus3 Diagrams" tutor_flag="tutor" problem_file="15eq4xplus3-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="2xplus3eq7-diagrams" label="2xplus3eq7 Diagrams" description="2xplus3eq7 Diagrams" tutor_flag="tutor" problem_file="2xplus3eq7-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="3xplus1eq10-diagrams" label="3xplus1eq10 Diagrams" description="3xplus1eq10 Diagrams" tutor_flag="tutor" problem_file="3xplus1eq10-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="5xplus2eq2xplus8-diagrams" label="5xplus2eq2xplus8 Diagrams" description="5xplus2eq2xplus8 Diagrams" tutor_flag="tutor" problem_file="5xplus2eq2xplus8-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="6xeq12-diagrams" label="6xeq12 Diagrams" description="6xeq12 Diagrams" tutor_flag="tutor" problem_file="6xeq12-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="6xeq2xplus8-diagrams" label="6xeq2xplus8 Diagrams" description="6xeq2xplus8 Diagrams" tutor_flag="tutor" problem_file="6xeq2xplus8-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="6xplus3eqxplus13-diagrams" label="6xplus3eqxplus13 Diagrams" description="6xplus3eqxplus13 Diagrams" tutor_flag="tutor" problem_file="6xplus3eqxplus13-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="8xplus1eq2xplus13-diagrams" label="8xplus1eq2xplus13 Diagrams" description="8xplus1eq2xplus13 Diagrams" tutor_flag="tutor" problem_file="8xplus1eq2xplus13-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="9eq4plusx-diagrams" label="9eq4plusx Diagrams" description="9eq4plusx Diagrams" tutor_flag="tutor" problem_file="9eq4plusx-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="xplus2eq6-diagrams" label="xplus2eq6 Diagrams" description="xplus2eq6 Diagrams" tutor_flag="tutor" problem_file="xplus2eq6-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="xplus3eq5-diagrams" label="xplus3eq5 Diagrams" description="xplus3eq5 Diagrams" tutor_flag="tutor" problem_file="xplus3eq5-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="2plusxeq9-diagrams" label="2plusxeq9 Diagrams" description="2plusxeq9 Diagrams" tutor_flag="tutor" problem_file="2plusxeq9-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="5plusxeq7-diagrams" label="5plusxeq7 Diagrams" description="5plusxeq7 Diagrams" tutor_flag="tutor" problem_file="5plusxeq7-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="4xplus1eq9-diagrams" label="4xplus1eq9 Diagrams" description="4xplus1eq9 Diagrams" tutor_flag="tutor" problem_file="4xplus1eq9-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="10eq2xplus8-diagrams" label="10eq2xplus8 Diagrams" description="10eq2xplus8 Diagrams" tutor_flag="tutor" problem_file="10eq2xplus8-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="8xeq2xplus6-diagrams" label="8xeq2xplus6 Diagrams" description="8xeq2xplus6 Diagrams" tutor_flag="tutor" problem_file="8xeq2xplus6-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="6xeq4xplus10-diagrams" label="6xeq4xplus10 Diagrams" description="6xeq4xplus10 Diagrams" tutor_flag="tutor" problem_file="6xeq4xplus10-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="10eq2xplus8-no-diagrams" label="10eq2xplus8 No Diagrams" description="10eq2xplus8 No Diagrams" tutor_flag="tutor" problem_file="10eq2xplus8-no-diagrams.nools" selection_features="()" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="10eq5plusx-no-diagrams" label="10eq5plusx No Diagrams" description="10eq5plusx No Diagrams" tutor_flag="tutor" problem_file="10eq5plusx-no-diagrams.nools" selection_features="()" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="12xeq2xplus10-no-diagrams" label="12xeq2xplus10 No Diagrams" description="12xeq2xplus10 No Diagrams" tutor_flag="tutor" problem_file="12xeq2xplus10-no-diagrams.nools" selection_features="()" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="15eq4xplus3-no-diagrams" label="15eq4xplus3 No Diagrams" description="15eq4xplus3 No Diagrams" tutor_flag="tutor" problem_file="15eq4xplus3-no-diagrams.nools" selection_features="()" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="2plusxeq9-no-diagrams" label="2plusxeq9 No Diagrams" description="2plusxeq9 No Diagrams" tutor_flag="tutor" problem_file="2plusxeq9-no-diagrams.nools" selection_features="()" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="2xplus3eq7-no-diagrams" label="2xplus3eq7 No Diagrams" description="2xplus3eq7 No Diagrams" tutor_flag="tutor" problem_file="2xplus3eq7-no-diagrams.nools" selection_features="()" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="3xplus1eq10-no-diagrams" label="3xplus1eq10 No Diagrams" description="3xplus1eq10 No Diagrams" tutor_flag="tutor" problem_file="3xplus1eq10-no-diagrams.nools" selection_features="()" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="4xplus1eq9-no-diagrams" label="4xplus1eq9 No Diagrams" description="4xplus1eq9 No Diagrams" tutor_flag="tutor" problem_file="4xplus1eq9-no-diagrams.nools" selection_features="()" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="5plusxeq7-no-diagrams" label="5plusxeq7 No Diagrams" description="5plusxeq7 No Diagrams" tutor_flag="tutor" problem_file="5plusxeq7-no-diagrams.nools" selection_features="()" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="5xplus2eq2xplus8-no-diagrams" label="5xplus2eq2xplus8 No Diagrams" description="5xplus2eq2xplus8 No Diagrams" tutor_flag="tutor" problem_file="5xplus2eq2xplus8-no-diagrams.nools" selection_features="()" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="6xeq12-no-diagrams" label="6xeq12 No Diagrams" description="6xeq12 No Diagrams" tutor_flag="tutor" problem_file="6xeq12-no-diagrams.nools" selection_features="()" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="6xeq2xplus8-no-diagrams" label="6xeq2xplus8 No Diagrams" description="6xeq2xplus8 No Diagrams" tutor_flag="tutor" problem_file="6xeq2xplus8-no-diagrams.nools" selection_features="()" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="6xeq4xplus10-no-diagrams" label="6xeq4xplus10 No Diagrams" description="6xeq4xplus10 No Diagrams" tutor_flag="tutor" problem_file="6xeq4xplus10-no-diagrams.nools" selection_features="()" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="6xplus3eqxplus13-no-diagrams" label="6xplus3eqxplus13 No Diagrams" description="6xplus3eqxplus13 No Diagrams" tutor_flag="tutor" problem_file="6xplus3eqxplus13-no-diagrams.nools" selection_features="()" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="8xeq2xplus6-no-diagrams" label="8xeq2xplus6 No Diagrams" description="8xeq2xplus6 No Diagrams" tutor_flag="tutor" problem_file="8xeq2xplus6-no-diagrams.nools" selection_features="()" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="8xplus1eq2xplus13-no-diagrams" label="8xplus1eq2xplus13 No Diagrams" description="8xplus1eq2xplus13 No Diagrams" tutor_flag="tutor" problem_file="8xplus1eq2xplus13-no-diagrams.nools" selection_features="()" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="9eq4plusx-no-diagrams" label="9eq4plusx No Diagrams" description="9eq4plusx No Diagrams" tutor_flag="tutor" problem_file="9eq4plusx-no-diagrams.nools" selection_features="()" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="xplus2eq6-no-diagrams" label="xplus2eq6 No Diagrams" description="xplus2eq6 No Diagrams" tutor_flag="tutor" problem_file="xplus2eq6-no-diagrams.nools" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="xplus3eq5-no-diagrams" label="xplus3eq5 No Diagrams" description="xplus3eq5 No Diagrams" tutor_flag="tutor" problem_file="xplus3eq5-no-diagrams.nools" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="4xplus1eqxplus10-diagrams" label="4xplus1eqxplus10 Diagrams" description="4xplus1eqxplus10 Diagrams" tutor_flag="tutor" problem_file="4xplus1eqxplus10-diagrams.nools" student_interface="Lynnette-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+    <Problem name="4xplus1eqxplus10-no-diagrams" label="4xplus1eqxplus10 No Diagrams" description="4xplus1eqxplus10 No Diagrams" tutor_flag="tutor" problem_file="4xplus1eqxplus10-no-diagrams.nools" student_interface="Lynnette-no-diagrams.html">
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" occurrences="1"/>
+        <Skill name="subtraction-const" category="transformation" occurrences="1"/>
+        <Skill name="division-simple" category="transformation" occurrences="1"/>
+        <Skill name="division-complex" category="transformation" occurrences="1"/>
+        <Skill name="combine-like-var" category="simplification" occurrences="1"/>
+        <Skill name="combine-like-const" category="simplification" occurrences="1"/>
+        <Skill name="divide" category="simplification" occurrences="1"/>
+        <Skill name="distribute-division" category="simplification" occurrences="1"/>
+        <Skill name="cancel-var" category="simplification" occurrences="1"/>
+        <Skill name="cancel-const" category="simplification" occurrences="1"/>
+      </Skills>
+    </Problem>
+  </Problems>
+  <ProblemSets>
+    <ProblemSet name="level 1 diagrams" label="Red Level 1" description="Red Level 1" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="xplus2eq6-diagrams" position="1" role="0"/>
+        <Problem name="xplus3eq5-diagrams" position="2" role="0"/>
+        <Problem name="9eq4plusx-diagrams" position="3" role="0"/>
+        <Problem name="10eq5plusx-diagrams" position="4" role="0"/>
+        <Problem name="2plusxeq9-diagrams" position="5" role="0"/>
+        <Problem name="5plusxeq7-diagrams" position="6" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="cancel-const" category="simplification" label="Cancel Constant Terms" description="Cancel Constant Terms" position="0" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="1" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Constant Terms" description="Combine Constant Terms" position="2" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Variable Terms" description="Combine Variable Terms" position="3" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="4" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="5" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="6" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="7" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="8" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="9" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="level 2 diagrams" label="Red Level 2" description="Red Level 2" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="2xplus3eq7-diagrams" position="1" role="0"/>
+        <Problem name="3xplus1eq10-diagrams" position="2" role="0"/>
+        <Problem name="6xeq12-diagrams" position="3" role="0"/>
+        <Problem name="15eq4xplus3-diagrams" position="4" role="0"/>
+        <Problem name="4xplus1eq9-diagrams" position="5" role="0"/>
+        <Problem name="10eq2xplus8-diagrams" position="6" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="cancel-const" category="simplification" label="Cancel Constant Terms" description="Cancel Constant Terms" position="0" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="1" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Constant Terms" description="Combine Constant Terms" position="2" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Variable Terms" description="Combine Variable Terms" position="3" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="4" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="5" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="6" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="7" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="8" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="9" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="level 3 diagrams" label="Red Level 3" description="Red Level 3" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="8xeq2xplus6-diagrams" position="1" role="0"/>
+        <Problem name="12xeq2xplus10-diagrams" position="2" role="0"/>
+        <Problem name="6xeq2xplus8-diagrams" position="3" role="0"/>
+        <Problem name="6xeq4xplus10-diagrams" position="4" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="cancel-const" category="simplification" label="Cancel Constant Terms" description="Cancel Constant Terms" position="0" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="1" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Constant Terms" description="Combine Constant Terms" position="2" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Variable Terms" description="Combine Variable Terms" position="3" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="4" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="5" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="6" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="7" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="8" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="9" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="level 4 diagrams" label="Red Level 4" description="Red Level 4" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="4xplus1eqxplus10-diagrams" position="1" role="0"/>
+        <Problem name="5xplus2eq2xplus8-diagrams" position="2" role="0"/>
+        <Problem name="6xplus3eqxplus13-diagrams" position="3" role="0"/>
+        <Problem name="8xplus1eq2xplus13-diagrams" position="4" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="cancel-const" category="simplification" label="Cancel Constant Terms" description="Cancel Constant Terms" position="0" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="1" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Constant Terms" description="Combine Constant Terms" position="2" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Variable Terms" description="Combine Variable Terms" position="3" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="4" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="5" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="6" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="7" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="8" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="9" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="level 1 no diagrams" label="Blue Level 1" description="Blue Level 1" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="xplus2eq6-no-diagrams" position="1" role="0"/>
+        <Problem name="xplus3eq5-no-diagrams" position="2" role="0"/>
+        <Problem name="9eq4plusx-no-diagrams" position="3" role="0"/>
+        <Problem name="10eq5plusx-no-diagrams" position="4" role="0"/>
+        <Problem name="2plusxeq9-no-diagrams" position="5" role="0"/>
+        <Problem name="5plusxeq7-no-diagrams" position="6" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="cancel-const" category="simplification" label="Cancel Constant Terms" description="Cancel Constant Terms" position="0" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="1" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Constant Terms" description="Combine Constant Terms" position="2" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Variable Terms" description="Combine Variable Terms" position="3" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="4" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="5" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="6" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="7" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="8" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="9" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="level 2 no diagrams" label="Blue Level 2" description="Blue Level 2" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="2xplus3eq7-no-diagrams" position="1" role="0"/>
+        <Problem name="3xplus1eq10-no-diagrams" position="2" role="0"/>
+        <Problem name="6xeq12-no-diagrams" position="3" role="0"/>
+        <Problem name="15eq4xplus3-no-diagrams" position="4" role="0"/>
+        <Problem name="4xplus1eq9-no-diagrams" position="5" role="0"/>
+        <Problem name="10eq2xplus8-no-diagrams" position="6" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="cancel-const" category="simplification" label="Cancel Constant Terms" description="Cancel Constant Terms" position="0" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="1" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Variable Terms" description="Combine Variable Terms" position="2" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Constant Terms" description="Combine Constant Terms" position="3" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="4" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="5" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="6" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="7" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="8" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="9" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="level 3 no diagrams" label="Blue Level 3" description="Blue Level 3" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="8xeq2xplus6-no-diagrams" position="1" role="0"/>
+        <Problem name="12xeq2xplus10-no-diagrams" position="2" role="0"/>
+        <Problem name="6xeq2xplus8-no-diagrams" position="3" role="0"/>
+        <Problem name="6xeq4xplus10-no-diagrams" position="4" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="cancel-const" category="simplification" label="Cancel Constant Terms" description="Cancel Constant Terms" position="0" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="1" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Constant Terms" description="Combine Constant Terms" position="2" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Variable Terms" description="Combine Variable Terms" position="3" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="4" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="5" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="6" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="7" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="8" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="9" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="level 4 no diagrams" label="Blue Level 4" description="Blue Level 4" status="active" team_size="1" selection_algorithm="random" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="4xplus1eqxplus10-no-diagrams" position="1" role="0"/>
+        <Problem name="5xplus2eq2xplus8-no-diagrams" position="2" role="0"/>
+        <Problem name="6xplus3eqxplus13-no-diagrams" position="3" role="0"/>
+        <Problem name="8xplus1eq2xplus13-no-diagrams" position="4" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="cancel-const" category="simplification" label="Cancel Constant Terms" description="Cancel Constant Terms" position="0" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="1" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Constant Terms" description="Combine Constant Terms" position="2" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Variable Terms" description="Combine Variable Terms" position="3" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="4" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="5" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="6" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="7" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="8" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="9" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="Lynnette_Diagram_usertest" label="Lynnette Diagram Usertest" description="Lynnette Diagram Usertest" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="xplus2eq6-diagrams" position="1" role="0"/>
+        <Problem name="2xplus3eq7-diagrams" position="2" role="0"/>
+        <Problem name="8xeq2xplus6-diagrams" position="3" role="0"/>
+        <Problem name="xplus3eq5-no-diagrams" position="4" role="0"/>
+        <Problem name="3xplus1eq10-no-diagrams" position="5" role="0"/>
+        <Problem name="6xeq2xplus8-no-diagrams" position="6" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Variable Terms" description="Combine Variable Terms" position="4" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Constant Terms" description="Combine Constant Terms" position="5" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Constant Terms" description="Cancel Constant Terms" position="9" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="UWMadison_2019_Red_Level1" label="UWMadison_2019_Red_Level1" description="UWMadison_2019_Red_Level1" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="5plusxeq7-diagrams" position="1" role="0"/>
+        <Problem name="9eq4plusx-diagrams" position="2" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Variable Terms" description="Combine Variable Terms" position="4" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Constant Terms" description="Combine Constant Terms" position="5" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Constant Terms" description="Cancel Constant Terms" position="9" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="UWMadison_2019_Red_Level2" label="UWMadison_2019_Red_Level2" description="UWMadison_2019_Red_Level2" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="10eq2xplus8-diagrams" position="1" role="0"/>
+        <Problem name="15eq4xplus3-diagrams" position="2" role="0"/>
+        <Problem name="2xplus3eq7-diagrams" position="3" role="0"/>
+        <Problem name="3xplus1eq10-diagrams" position="4" role="0"/>
+        <Problem name="4xplus1eq9-diagrams" position="5" role="0"/>
+        <Problem name="6xeq12-diagrams" position="6" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Variable Terms" description="Combine Variable Terms" position="4" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Constant Terms" description="Combine Constant Terms" position="5" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Constant Terms" description="Cancel Constant Terms" position="9" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="UWMadison_2019_Blue_Level1" label="UWMadison_2019_Blue_Level1" description="UWMadison_2019_Blue_Level1" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="5plusxeq7-no-diagrams" position="1" role="0"/>
+        <Problem name="9eq4plusx-no-diagrams" position="2" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Variable Terms" description="Combine Variable Terms" position="4" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Constant Terms" description="Combine Constant Terms" position="5" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Constant Terms" description="Cancel Constant Terms" position="9" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="UWMadison_2019_Blue_Level2" label="UWMadison_2019_Blue_Level2" description="UWMadison_2019_Blue_Level2" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="10eq2xplus8-no-diagrams" position="1" role="0"/>
+        <Problem name="15eq4xplus3-no-diagrams" position="2" role="0"/>
+        <Problem name="2xplus3eq7-no-diagrams" position="3" role="0"/>
+        <Problem name="3xplus1eq10-no-diagrams" position="4" role="0"/>
+        <Problem name="4xplus1eq9-no-diagrams" position="5" role="0"/>
+        <Problem name="6xeq12-no-diagrams" position="6" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Variable Terms" description="Combine Variable Terms" position="4" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Constant Terms" description="Combine Constant Terms" position="5" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Constant Terms" description="Cancel Constant Terms" position="9" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="UWMadison_2019_Red_Level3" label="UWMadison_2019_Red_Level3" description="UWMadison_2019_Red_Level3" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="12xeq2xplus10-diagrams" position="1" role="0"/>
+        <Problem name="6xeq2xplus8-diagrams" position="2" role="0"/>
+        <Problem name="6xeq4xplus10-diagrams" position="3" role="0"/>
+        <Problem name="8xeq2xplus6-diagrams" position="4" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Variable Terms" description="Combine Variable Terms" position="4" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Constant Terms" description="Combine Constant Terms" position="5" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Constant Terms" description="Cancel Constant Terms" position="9" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+    <ProblemSet name="UWMadison_2019_Blue_Level3" label="UWMadison_2019_Blue_Level3" description="UWMadison_2019_Blue_Level3" status="active" team_size="1" selection_algorithm="sequential" max_count="1000" max_repeat="1" initial_sequence="0">
+      <Problems>
+        <Problem name="12xeq2xplus10-no-diagrams" position="1" role="0"/>
+        <Problem name="6xeq2xplus8-no-diagrams" position="2" role="0"/>
+        <Problem name="6xeq4xplus10-no-diagrams" position="3" role="0"/>
+        <Problem name="8xeq2xplus6-no-diagrams" position="4" role="0"/>
+      </Problems>
+      <Skills>
+        <Skill name="subtraction-var" category="transformation" label="Subtract Variable" description="Subtract Variable" position="0" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="subtraction-const" category="transformation" label="Subtract Constant" description="Subtract Constant" position="1" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-simple" category="transformation" label="Simple Division" description="Simple Division" position="2" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="division-complex" category="transformation" label="Complex Division" description="Complex Division" position="3" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-var" category="simplification" label="Combine Variable Terms" description="Combine Variable Terms" position="4" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="combine-like-const" category="simplification" label="Combine Constant Terms" description="Combine Constant Terms" position="5" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="divide" category="simplification" label="Simplify Division" description="Simplify Division" position="6" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="distribute-division" category="simplification" label="Distribute Division" description="Distribute Division" position="7" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-var" category="simplification" label="Cancel Variable Terms" description="Cancel Variable Terms" position="8" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+        <Skill name="cancel-const" category="simplification" label="Cancel Constant Terms" description="Cancel Constant Terms" position="9" pKnown="0.2" pLearn="0.12" pGuess="0.3" pSlip="0.1"/>
+      </Skills>
+      <Assets>
+      </Assets>
+      <Categories>
+        <Collection name="general" label="Released Problem Sets" description="Released Problem Sets"/>
+        <Standard name="PA" label="PA Assessment Anchors" description="PA Assessment Anchors" category="standard"/>
+        <Standard name="NCTM" label="NCTM Curriculum Focal Points" description="NCTM Curriculum Focal Points" category="standard"/>
+        <Standard name="Student" label="Problem Set Categories" description="Student Standards" category="standard"/>
+        <Standard name="CommonCore" label="Common Core Standards" description="Common Core Standards" category="standard"/>
+      </Categories>
+    </ProblemSet>
+  </ProblemSets>
+  <Assets>
+    <Asset name="ctat.min.js" label="Ctat.Min.Js" description="Ctat.Min.Js" asset_locator="HTML/Assets/ctat.min.js"/>
+    <Asset name="ctatloader.js" label="Ctatloader.Js" description="Ctatloader.Js" asset_locator="HTML/Assets/ctatloader.js"/>
+    <Asset name="guppy-default.min.css" label="Guppy Default.Min.Css" description="Guppy Default.Min.Css" asset_locator="HTML/Assets/guppy-default.min.css"/>
+    <Asset name="jquery.min.js" label="Jquery.Min.Js" description="Jquery.Min.Js" asset_locator="HTML/Assets/jquery.min.js"/>
+    <Asset name="modelhelperfuns.js" label="Modelhelperfuns.Js" description="Modelhelperfuns.Js" asset_locator="HTML/Assets/modelhelperfuns.js"/>
+    <Asset name="nools.js" label="Nools.Js" description="Nools.Js" asset_locator="HTML/Assets/nools.js"/>
+    <Asset name="KaTeX_AMS-Regular.eot" label="Ka Te X Ams Regular.Eot" description="Ka Te X Ams Regular.Eot" asset_locator="HTML/Assets/fonts/KaTeX_AMS-Regular.eot"/>
+    <Asset name="KaTeX_AMS-Regular.ttf" label="Ka Te X Ams Regular.Ttf" description="Ka Te X Ams Regular.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_AMS-Regular.ttf"/>
+    <Asset name="KaTeX_AMS-Regular.woff" label="Ka Te X Ams Regular.Woff" description="Ka Te X Ams Regular.Woff" asset_locator="HTML/Assets/fonts/KaTeX_AMS-Regular.woff"/>
+    <Asset name="KaTeX_AMS-Regular.woff2" label="Ka Te X Ams Regular.Woff2" description="Ka Te X Ams Regular.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_AMS-Regular.woff2"/>
+    <Asset name="KaTeX_Caligraphic-Bold.eot" label="Ka Te X Caligraphic Bold.Eot" description="Ka Te X Caligraphic Bold.Eot" asset_locator="HTML/Assets/fonts/KaTeX_Caligraphic-Bold.eot"/>
+    <Asset name="KaTeX_Caligraphic-Bold.ttf" label="Ka Te X Caligraphic Bold.Ttf" description="Ka Te X Caligraphic Bold.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_Caligraphic-Bold.ttf"/>
+    <Asset name="KaTeX_Caligraphic-Bold.woff" label="Ka Te X Caligraphic Bold.Woff" description="Ka Te X Caligraphic Bold.Woff" asset_locator="HTML/Assets/fonts/KaTeX_Caligraphic-Bold.woff"/>
+    <Asset name="KaTeX_Caligraphic-Bold.woff2" label="Ka Te X Caligraphic Bold.Woff2" description="Ka Te X Caligraphic Bold.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_Caligraphic-Bold.woff2"/>
+    <Asset name="KaTeX_Caligraphic-Regular.eot" label="Ka Te X Caligraphic Regular.Eot" description="Ka Te X Caligraphic Regular.Eot" asset_locator="HTML/Assets/fonts/KaTeX_Caligraphic-Regular.eot"/>
+    <Asset name="KaTeX_Caligraphic-Regular.ttf" label="Ka Te X Caligraphic Regular.Ttf" description="Ka Te X Caligraphic Regular.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_Caligraphic-Regular.ttf"/>
+    <Asset name="KaTeX_Caligraphic-Regular.woff" label="Ka Te X Caligraphic Regular.Woff" description="Ka Te X Caligraphic Regular.Woff" asset_locator="HTML/Assets/fonts/KaTeX_Caligraphic-Regular.woff"/>
+    <Asset name="KaTeX_Caligraphic-Regular.woff2" label="Ka Te X Caligraphic Regular.Woff2" description="Ka Te X Caligraphic Regular.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_Caligraphic-Regular.woff2"/>
+    <Asset name="KaTeX_Fraktur-Bold.eot" label="Ka Te X Fraktur Bold.Eot" description="Ka Te X Fraktur Bold.Eot" asset_locator="HTML/Assets/fonts/KaTeX_Fraktur-Bold.eot"/>
+    <Asset name="KaTeX_Fraktur-Bold.ttf" label="Ka Te X Fraktur Bold.Ttf" description="Ka Te X Fraktur Bold.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_Fraktur-Bold.ttf"/>
+    <Asset name="KaTeX_Fraktur-Bold.woff" label="Ka Te X Fraktur Bold.Woff" description="Ka Te X Fraktur Bold.Woff" asset_locator="HTML/Assets/fonts/KaTeX_Fraktur-Bold.woff"/>
+    <Asset name="KaTeX_Fraktur-Bold.woff2" label="Ka Te X Fraktur Bold.Woff2" description="Ka Te X Fraktur Bold.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_Fraktur-Bold.woff2"/>
+    <Asset name="KaTeX_Fraktur-Regular.eot" label="Ka Te X Fraktur Regular.Eot" description="Ka Te X Fraktur Regular.Eot" asset_locator="HTML/Assets/fonts/KaTeX_Fraktur-Regular.eot"/>
+    <Asset name="KaTeX_Fraktur-Regular.ttf" label="Ka Te X Fraktur Regular.Ttf" description="Ka Te X Fraktur Regular.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_Fraktur-Regular.ttf"/>
+    <Asset name="KaTeX_Fraktur-Regular.woff" label="Ka Te X Fraktur Regular.Woff" description="Ka Te X Fraktur Regular.Woff" asset_locator="HTML/Assets/fonts/KaTeX_Fraktur-Regular.woff"/>
+    <Asset name="KaTeX_Fraktur-Regular.woff2" label="Ka Te X Fraktur Regular.Woff2" description="Ka Te X Fraktur Regular.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_Fraktur-Regular.woff2"/>
+    <Asset name="KaTeX_Main-Bold.eot" label="Ka Te X Main Bold.Eot" description="Ka Te X Main Bold.Eot" asset_locator="HTML/Assets/fonts/KaTeX_Main-Bold.eot"/>
+    <Asset name="KaTeX_Main-Bold.ttf" label="Ka Te X Main Bold.Ttf" description="Ka Te X Main Bold.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_Main-Bold.ttf"/>
+    <Asset name="KaTeX_Main-Bold.woff" label="Ka Te X Main Bold.Woff" description="Ka Te X Main Bold.Woff" asset_locator="HTML/Assets/fonts/KaTeX_Main-Bold.woff"/>
+    <Asset name="KaTeX_Main-Bold.woff2" label="Ka Te X Main Bold.Woff2" description="Ka Te X Main Bold.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_Main-Bold.woff2"/>
+    <Asset name="KaTeX_Main-Italic.eot" label="Ka Te X Main Italic.Eot" description="Ka Te X Main Italic.Eot" asset_locator="HTML/Assets/fonts/KaTeX_Main-Italic.eot"/>
+    <Asset name="KaTeX_Main-Italic.ttf" label="Ka Te X Main Italic.Ttf" description="Ka Te X Main Italic.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_Main-Italic.ttf"/>
+    <Asset name="KaTeX_Main-Italic.woff" label="Ka Te X Main Italic.Woff" description="Ka Te X Main Italic.Woff" asset_locator="HTML/Assets/fonts/KaTeX_Main-Italic.woff"/>
+    <Asset name="KaTeX_Main-Italic.woff2" label="Ka Te X Main Italic.Woff2" description="Ka Te X Main Italic.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_Main-Italic.woff2"/>
+    <Asset name="KaTeX_Main-Regular.eot" label="Ka Te X Main Regular.Eot" description="Ka Te X Main Regular.Eot" asset_locator="HTML/Assets/fonts/KaTeX_Main-Regular.eot"/>
+    <Asset name="KaTeX_Main-Regular.ttf" label="Ka Te X Main Regular.Ttf" description="Ka Te X Main Regular.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_Main-Regular.ttf"/>
+    <Asset name="KaTeX_Main-Regular.woff" label="Ka Te X Main Regular.Woff" description="Ka Te X Main Regular.Woff" asset_locator="HTML/Assets/fonts/KaTeX_Main-Regular.woff"/>
+    <Asset name="KaTeX_Main-Regular.woff2" label="Ka Te X Main Regular.Woff2" description="Ka Te X Main Regular.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_Main-Regular.woff2"/>
+    <Asset name="KaTeX_Math-BoldItalic.eot" label="Ka Te X Math Bold Italic.Eot" description="Ka Te X Math Bold Italic.Eot" asset_locator="HTML/Assets/fonts/KaTeX_Math-BoldItalic.eot"/>
+    <Asset name="KaTeX_Math-BoldItalic.ttf" label="Ka Te X Math Bold Italic.Ttf" description="Ka Te X Math Bold Italic.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_Math-BoldItalic.ttf"/>
+    <Asset name="KaTeX_Math-BoldItalic.woff" label="Ka Te X Math Bold Italic.Woff" description="Ka Te X Math Bold Italic.Woff" asset_locator="HTML/Assets/fonts/KaTeX_Math-BoldItalic.woff"/>
+    <Asset name="KaTeX_Math-BoldItalic.woff2" label="Ka Te X Math Bold Italic.Woff2" description="Ka Te X Math Bold Italic.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_Math-BoldItalic.woff2"/>
+    <Asset name="KaTeX_Math-Italic.eot" label="Ka Te X Math Italic.Eot" description="Ka Te X Math Italic.Eot" asset_locator="HTML/Assets/fonts/KaTeX_Math-Italic.eot"/>
+    <Asset name="KaTeX_Math-Italic.ttf" label="Ka Te X Math Italic.Ttf" description="Ka Te X Math Italic.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_Math-Italic.ttf"/>
+    <Asset name="KaTeX_Math-Italic.woff" label="Ka Te X Math Italic.Woff" description="Ka Te X Math Italic.Woff" asset_locator="HTML/Assets/fonts/KaTeX_Math-Italic.woff"/>
+    <Asset name="KaTeX_Math-Italic.woff2" label="Ka Te X Math Italic.Woff2" description="Ka Te X Math Italic.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_Math-Italic.woff2"/>
+    <Asset name="KaTeX_Math-Regular.eot" label="Ka Te X Math Regular.Eot" description="Ka Te X Math Regular.Eot" asset_locator="HTML/Assets/fonts/KaTeX_Math-Regular.eot"/>
+    <Asset name="KaTeX_Math-Regular.ttf" label="Ka Te X Math Regular.Ttf" description="Ka Te X Math Regular.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_Math-Regular.ttf"/>
+    <Asset name="KaTeX_Math-Regular.woff" label="Ka Te X Math Regular.Woff" description="Ka Te X Math Regular.Woff" asset_locator="HTML/Assets/fonts/KaTeX_Math-Regular.woff"/>
+    <Asset name="KaTeX_Math-Regular.woff2" label="Ka Te X Math Regular.Woff2" description="Ka Te X Math Regular.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_Math-Regular.woff2"/>
+    <Asset name="KaTeX_SansSerif-Bold.eot" label="Ka Te X Sans Serif Bold.Eot" description="Ka Te X Sans Serif Bold.Eot" asset_locator="HTML/Assets/fonts/KaTeX_SansSerif-Bold.eot"/>
+    <Asset name="KaTeX_SansSerif-Bold.ttf" label="Ka Te X Sans Serif Bold.Ttf" description="Ka Te X Sans Serif Bold.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_SansSerif-Bold.ttf"/>
+    <Asset name="KaTeX_SansSerif-Bold.woff" label="Ka Te X Sans Serif Bold.Woff" description="Ka Te X Sans Serif Bold.Woff" asset_locator="HTML/Assets/fonts/KaTeX_SansSerif-Bold.woff"/>
+    <Asset name="KaTeX_SansSerif-Bold.woff2" label="Ka Te X Sans Serif Bold.Woff2" description="Ka Te X Sans Serif Bold.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_SansSerif-Bold.woff2"/>
+    <Asset name="KaTeX_SansSerif-Italic.eot" label="Ka Te X Sans Serif Italic.Eot" description="Ka Te X Sans Serif Italic.Eot" asset_locator="HTML/Assets/fonts/KaTeX_SansSerif-Italic.eot"/>
+    <Asset name="KaTeX_SansSerif-Italic.ttf" label="Ka Te X Sans Serif Italic.Ttf" description="Ka Te X Sans Serif Italic.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_SansSerif-Italic.ttf"/>
+    <Asset name="KaTeX_SansSerif-Italic.woff" label="Ka Te X Sans Serif Italic.Woff" description="Ka Te X Sans Serif Italic.Woff" asset_locator="HTML/Assets/fonts/KaTeX_SansSerif-Italic.woff"/>
+    <Asset name="KaTeX_SansSerif-Italic.woff2" label="Ka Te X Sans Serif Italic.Woff2" description="Ka Te X Sans Serif Italic.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_SansSerif-Italic.woff2"/>
+    <Asset name="KaTeX_SansSerif-Regular.eot" label="Ka Te X Sans Serif Regular.Eot" description="Ka Te X Sans Serif Regular.Eot" asset_locator="HTML/Assets/fonts/KaTeX_SansSerif-Regular.eot"/>
+    <Asset name="KaTeX_SansSerif-Regular.ttf" label="Ka Te X Sans Serif Regular.Ttf" description="Ka Te X Sans Serif Regular.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_SansSerif-Regular.ttf"/>
+    <Asset name="KaTeX_SansSerif-Regular.woff" label="Ka Te X Sans Serif Regular.Woff" description="Ka Te X Sans Serif Regular.Woff" asset_locator="HTML/Assets/fonts/KaTeX_SansSerif-Regular.woff"/>
+    <Asset name="KaTeX_SansSerif-Regular.woff2" label="Ka Te X Sans Serif Regular.Woff2" description="Ka Te X Sans Serif Regular.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_SansSerif-Regular.woff2"/>
+    <Asset name="KaTeX_Script-Regular.eot" label="Ka Te X Script Regular.Eot" description="Ka Te X Script Regular.Eot" asset_locator="HTML/Assets/fonts/KaTeX_Script-Regular.eot"/>
+    <Asset name="KaTeX_Script-Regular.ttf" label="Ka Te X Script Regular.Ttf" description="Ka Te X Script Regular.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_Script-Regular.ttf"/>
+    <Asset name="KaTeX_Script-Regular.woff" label="Ka Te X Script Regular.Woff" description="Ka Te X Script Regular.Woff" asset_locator="HTML/Assets/fonts/KaTeX_Script-Regular.woff"/>
+    <Asset name="KaTeX_Script-Regular.woff2" label="Ka Te X Script Regular.Woff2" description="Ka Te X Script Regular.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_Script-Regular.woff2"/>
+    <Asset name="KaTeX_Size1-Regular.eot" label="Ka Te X Size1 Regular.Eot" description="Ka Te X Size1 Regular.Eot" asset_locator="HTML/Assets/fonts/KaTeX_Size1-Regular.eot"/>
+    <Asset name="KaTeX_Size1-Regular.ttf" label="Ka Te X Size1 Regular.Ttf" description="Ka Te X Size1 Regular.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_Size1-Regular.ttf"/>
+    <Asset name="KaTeX_Size1-Regular.woff" label="Ka Te X Size1 Regular.Woff" description="Ka Te X Size1 Regular.Woff" asset_locator="HTML/Assets/fonts/KaTeX_Size1-Regular.woff"/>
+    <Asset name="KaTeX_Size1-Regular.woff2" label="Ka Te X Size1 Regular.Woff2" description="Ka Te X Size1 Regular.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_Size1-Regular.woff2"/>
+    <Asset name="KaTeX_Size2-Regular.eot" label="Ka Te X Size2 Regular.Eot" description="Ka Te X Size2 Regular.Eot" asset_locator="HTML/Assets/fonts/KaTeX_Size2-Regular.eot"/>
+    <Asset name="KaTeX_Size2-Regular.ttf" label="Ka Te X Size2 Regular.Ttf" description="Ka Te X Size2 Regular.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_Size2-Regular.ttf"/>
+    <Asset name="KaTeX_Size2-Regular.woff" label="Ka Te X Size2 Regular.Woff" description="Ka Te X Size2 Regular.Woff" asset_locator="HTML/Assets/fonts/KaTeX_Size2-Regular.woff"/>
+    <Asset name="KaTeX_Size2-Regular.woff2" label="Ka Te X Size2 Regular.Woff2" description="Ka Te X Size2 Regular.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_Size2-Regular.woff2"/>
+    <Asset name="KaTeX_Size3-Regular.eot" label="Ka Te X Size3 Regular.Eot" description="Ka Te X Size3 Regular.Eot" asset_locator="HTML/Assets/fonts/KaTeX_Size3-Regular.eot"/>
+    <Asset name="KaTeX_Size3-Regular.ttf" label="Ka Te X Size3 Regular.Ttf" description="Ka Te X Size3 Regular.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_Size3-Regular.ttf"/>
+    <Asset name="KaTeX_Size3-Regular.woff" label="Ka Te X Size3 Regular.Woff" description="Ka Te X Size3 Regular.Woff" asset_locator="HTML/Assets/fonts/KaTeX_Size3-Regular.woff"/>
+    <Asset name="KaTeX_Size3-Regular.woff2" label="Ka Te X Size3 Regular.Woff2" description="Ka Te X Size3 Regular.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_Size3-Regular.woff2"/>
+    <Asset name="KaTeX_Size4-Regular.eot" label="Ka Te X Size4 Regular.Eot" description="Ka Te X Size4 Regular.Eot" asset_locator="HTML/Assets/fonts/KaTeX_Size4-Regular.eot"/>
+    <Asset name="KaTeX_Size4-Regular.ttf" label="Ka Te X Size4 Regular.Ttf" description="Ka Te X Size4 Regular.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_Size4-Regular.ttf"/>
+    <Asset name="KaTeX_Size4-Regular.woff" label="Ka Te X Size4 Regular.Woff" description="Ka Te X Size4 Regular.Woff" asset_locator="HTML/Assets/fonts/KaTeX_Size4-Regular.woff"/>
+    <Asset name="KaTeX_Size4-Regular.woff2" label="Ka Te X Size4 Regular.Woff2" description="Ka Te X Size4 Regular.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_Size4-Regular.woff2"/>
+    <Asset name="KaTeX_Typewriter-Regular.eot" label="Ka Te X Typewriter Regular.Eot" description="Ka Te X Typewriter Regular.Eot" asset_locator="HTML/Assets/fonts/KaTeX_Typewriter-Regular.eot"/>
+    <Asset name="KaTeX_Typewriter-Regular.ttf" label="Ka Te X Typewriter Regular.Ttf" description="Ka Te X Typewriter Regular.Ttf" asset_locator="HTML/Assets/fonts/KaTeX_Typewriter-Regular.ttf"/>
+    <Asset name="KaTeX_Typewriter-Regular.woff" label="Ka Te X Typewriter Regular.Woff" description="Ka Te X Typewriter Regular.Woff" asset_locator="HTML/Assets/fonts/KaTeX_Typewriter-Regular.woff"/>
+    <Asset name="KaTeX_Typewriter-Regular.woff2" label="Ka Te X Typewriter Regular.Woff2" description="Ka Te X Typewriter Regular.Woff2" asset_locator="HTML/Assets/fonts/KaTeX_Typewriter-Regular.woff2"/>
+    <Asset name="types.nools" label="Types.Nools" description="Types.Nools" asset_locator="CognitiveModel/types.nools"/>
+    <Asset name="CTAT.css" label="Ctat.Css" description="Ctat.Css" asset_locator="HTML/Assets/CTAT.css"/>
+    <Asset name="productionrulesMB.nools" label="Productionrules Mb.Nools" description="Productionrules Mb.Nools" asset_locator="CognitiveModel/productionrulesMB.nools"/>
+    <Asset name="Lynnette-diagrams.html" label="Lynnette Diagrams.Html" description="Lynnette Diagrams.Html" asset_locator="HTML/Lynnette-diagrams.html"/>
+    <Asset name="Lynnette-no-diagrams.html" label="Lynnette No Diagrams.Html" description="Lynnette No Diagrams.Html" asset_locator="HTML/Lynnette-no-diagrams.html"/>
+    <Asset name="Lynnette-no-diagrams.css" label="Lynnette No Diagrams.Css" description="Lynnette No Diagrams.Css" asset_locator="HTML/Assets/Lynnette-no-diagrams.css"/>
+    <Asset name="Lynnette-diagrams.css" label="Lynnette Diagrams.Css" description="Lynnette Diagrams.Css" asset_locator="HTML/Assets/Lynnette-diagrams.css"/>
+    <Asset name="Lynnette-diagrams.js" label="Lynnette Diagrams.Js" description="Lynnette Diagrams.Js" asset_locator="HTML/Assets/Lynnette-diagrams.js"/>
+    <Asset name="Lynnette-animations.js" label="Lynnette Animations.Js" description="Lynnette Animations.Js" asset_locator="HTML/Assets/Lynnette-animations.js"/>
+    <Asset name="10eq2xplus8-no-diagrams.nools" label="10eq2xplus8 No Diagrams.Nools" description="10eq2xplus8 No Diagrams.Nools" asset_locator="CognitiveModel/10eq2xplus8-no-diagrams.nools"/>
+    <Asset name="10eq5plusx-no-diagrams.nools" label="10eq5plusx No Diagrams.Nools" description="10eq5plusx No Diagrams.Nools" asset_locator="CognitiveModel/10eq5plusx-no-diagrams.nools"/>
+    <Asset name="12xeq2xplus10-no-diagrams.nools" label="12xeq2xplus10 No Diagrams.Nools" description="12xeq2xplus10 No Diagrams.Nools" asset_locator="CognitiveModel/12xeq2xplus10-no-diagrams.nools"/>
+    <Asset name="15eq4xplus3-no-diagrams.nools" label="15eq4xplus3 No Diagrams.Nools" description="15eq4xplus3 No Diagrams.Nools" asset_locator="CognitiveModel/15eq4xplus3-no-diagrams.nools"/>
+    <Asset name="2plusxeq9-no-diagrams.nools" label="2plusxeq9 No Diagrams.Nools" description="2plusxeq9 No Diagrams.Nools" asset_locator="CognitiveModel/2plusxeq9-no-diagrams.nools"/>
+    <Asset name="2xplus3eq7-no-diagrams.nools" label="2xplus3eq7 No Diagrams.Nools" description="2xplus3eq7 No Diagrams.Nools" asset_locator="CognitiveModel/2xplus3eq7-no-diagrams.nools"/>
+    <Asset name="3xplus1eq10-no-diagrams.nools" label="3xplus1eq10 No Diagrams.Nools" description="3xplus1eq10 No Diagrams.Nools" asset_locator="CognitiveModel/3xplus1eq10-no-diagrams.nools"/>
+    <Asset name="4xplus1eqxplus10-no-diagrams.nools" label="4xplus1eqxplus10 No Diagrams.Nools" description="4xplus1eqxplus10 No Diagrams.Nools" asset_locator="CognitiveModel/4xplus1eqxplus10-no-diagrams.nools"/>
+    <Asset name="4xplus1eq9-no-diagrams.nools" label="4xplus1eq9 No Diagrams.Nools" description="4xplus1eq9 No Diagrams.Nools" asset_locator="CognitiveModel/4xplus1eq9-no-diagrams.nools"/>
+    <Asset name="5plusxeq7-no-diagrams.nools" label="5plusxeq7 No Diagrams.Nools" description="5plusxeq7 No Diagrams.Nools" asset_locator="CognitiveModel/5plusxeq7-no-diagrams.nools"/>
+    <Asset name="5xplus2eq2xplus8-no-diagrams.nools" label="5xplus2eq2xplus8 No Diagrams.Nools" description="5xplus2eq2xplus8 No Diagrams.Nools" asset_locator="CognitiveModel/5xplus2eq2xplus8-no-diagrams.nools"/>
+    <Asset name="6xeq12-no-diagrams.nools" label="6xeq12 No Diagrams.Nools" description="6xeq12 No Diagrams.Nools" asset_locator="CognitiveModel/6xeq12-no-diagrams.nools"/>
+    <Asset name="6xeq2xplus8-no-diagrams.nools" label="6xeq2xplus8 No Diagrams.Nools" description="6xeq2xplus8 No Diagrams.Nools" asset_locator="CognitiveModel/6xeq2xplus8-no-diagrams.nools"/>
+    <Asset name="6xeq4xplus10-no-diagrams.nools" label="6xeq4xplus10 No Diagrams.Nools" description="6xeq4xplus10 No Diagrams.Nools" asset_locator="CognitiveModel/6xeq4xplus10-no-diagrams.nools"/>
+    <Asset name="6xplus3eqxplus13-no-diagrams.nools" label="6xplus3eqxplus13 No Diagrams.Nools" description="6xplus3eqxplus13 No Diagrams.Nools" asset_locator="CognitiveModel/6xplus3eqxplus13-no-diagrams.nools"/>
+    <Asset name="8xeq2xplus6-no-diagrams.nools" label="8xeq2xplus6 No Diagrams.Nools" description="8xeq2xplus6 No Diagrams.Nools" asset_locator="CognitiveModel/8xeq2xplus6-no-diagrams.nools"/>
+    <Asset name="8xplus1eq2xplus13-no-diagrams.nools" label="8xplus1eq2xplus13 No Diagrams.Nools" description="8xplus1eq2xplus13 No Diagrams.Nools" asset_locator="CognitiveModel/8xplus1eq2xplus13-no-diagrams.nools"/>
+    <Asset name="9eq4plusx-no-diagrams.nools" label="9eq4plusx No Diagrams.Nools" description="9eq4plusx No Diagrams.Nools" asset_locator="CognitiveModel/9eq4plusx-no-diagrams.nools"/>
+    <Asset name="xplus2eq6-no-diagrams.nools" label="Xplus2eq6 No Diagrams.Nools" description="Xplus2eq6 No Diagrams.Nools" asset_locator="CognitiveModel/xplus2eq6-no-diagrams.nools"/>
+    <Asset name="xplus3eq5-no-diagrams.nools" label="Xplus3eq5 No Diagrams.Nools" description="Xplus3eq5 No Diagrams.Nools" asset_locator="CognitiveModel/xplus3eq5-no-diagrams.nools"/>
+    <Asset name="10eq5plusx-diagrams.nools" label="10eq5plusx Diagrams.Nools" description="10eq5plusx Diagrams.Nools" asset_locator="CognitiveModel/10eq5plusx-diagrams.nools"/>
+    <Asset name="12xeq2xplus10-diagrams.nools" label="12xeq2xplus10 Diagrams.Nools" description="12xeq2xplus10 Diagrams.Nools" asset_locator="CognitiveModel/12xeq2xplus10-diagrams.nools"/>
+    <Asset name="15eq4xplus3-diagrams.nools" label="15eq4xplus3 Diagrams.Nools" description="15eq4xplus3 Diagrams.Nools" asset_locator="CognitiveModel/15eq4xplus3-diagrams.nools"/>
+    <Asset name="2xplus3eq7-diagrams.nools" label="2xplus3eq7 Diagrams.Nools" description="2xplus3eq7 Diagrams.Nools" asset_locator="CognitiveModel/2xplus3eq7-diagrams.nools"/>
+    <Asset name="3xplus1eq10-diagrams.nools" label="3xplus1eq10 Diagrams.Nools" description="3xplus1eq10 Diagrams.Nools" asset_locator="CognitiveModel/3xplus1eq10-diagrams.nools"/>
+    <Asset name="4xplus1eqxplus10-diagrams.nools" label="4xplus1eqxplus10 Diagrams.Nools" description="4xplus1eqxplus10 Diagrams.Nools" asset_locator="CognitiveModel/4xplus1eqxplus10-diagrams.nools"/>
+    <Asset name="5xplus2eq2xplus8-diagrams.nools" label="5xplus2eq2xplus8 Diagrams.Nools" description="5xplus2eq2xplus8 Diagrams.Nools" asset_locator="CognitiveModel/5xplus2eq2xplus8-diagrams.nools"/>
+    <Asset name="6xeq12-diagrams.nools" label="6xeq12 Diagrams.Nools" description="6xeq12 Diagrams.Nools" asset_locator="CognitiveModel/6xeq12-diagrams.nools"/>
+    <Asset name="6xeq2xplus8-diagrams.nools" label="6xeq2xplus8 Diagrams.Nools" description="6xeq2xplus8 Diagrams.Nools" asset_locator="CognitiveModel/6xeq2xplus8-diagrams.nools"/>
+    <Asset name="6xplus3eqxplus13-diagrams.nools" label="6xplus3eqxplus13 Diagrams.Nools" description="6xplus3eqxplus13 Diagrams.Nools" asset_locator="CognitiveModel/6xplus3eqxplus13-diagrams.nools"/>
+    <Asset name="8xplus1eq2xplus13-diagrams.nools" label="8xplus1eq2xplus13 Diagrams.Nools" description="8xplus1eq2xplus13 Diagrams.Nools" asset_locator="CognitiveModel/8xplus1eq2xplus13-diagrams.nools"/>
+    <Asset name="9eq4plusx-diagrams.nools" label="9eq4plusx Diagrams.Nools" description="9eq4plusx Diagrams.Nools" asset_locator="CognitiveModel/9eq4plusx-diagrams.nools"/>
+    <Asset name="xplus2eq6-diagrams.nools" label="Xplus2eq6 Diagrams.Nools" description="Xplus2eq6 Diagrams.Nools" asset_locator="CognitiveModel/xplus2eq6-diagrams.nools"/>
+    <Asset name="xplus3eq5-diagrams.nools" label="Xplus3eq5 Diagrams.Nools" description="Xplus3eq5 Diagrams.Nools" asset_locator="CognitiveModel/xplus3eq5-diagrams.nools"/>
+    <Asset name="2plusxeq9-diagrams.nools" label="2plusxeq9 Diagrams.Nools" description="2plusxeq9 Diagrams.Nools" asset_locator="CognitiveModel/2plusxeq9-diagrams.nools"/>
+    <Asset name="5plusxeq7-diagrams.nools" label="5plusxeq7 Diagrams.Nools" description="5plusxeq7 Diagrams.Nools" asset_locator="CognitiveModel/5plusxeq7-diagrams.nools"/>
+    <Asset name="4xplus1eq9-diagrams.nools" label="4xplus1eq9 Diagrams.Nools" description="4xplus1eq9 Diagrams.Nools" asset_locator="CognitiveModel/4xplus1eq9-diagrams.nools"/>
+    <Asset name="10eq2xplus8-diagrams.nools" label="10eq2xplus8 Diagrams.Nools" description="10eq2xplus8 Diagrams.Nools" asset_locator="CognitiveModel/10eq2xplus8-diagrams.nools"/>
+    <Asset name="8xeq2xplus6-diagrams.nools" label="8xeq2xplus6 Diagrams.Nools" description="8xeq2xplus6 Diagrams.Nools" asset_locator="CognitiveModel/8xeq2xplus6-diagrams.nools"/>
+    <Asset name="6xeq4xplus10-diagrams.nools" label="6xeq4xplus10 Diagrams.Nools" description="6xeq4xplus10 Diagrams.Nools" asset_locator="CognitiveModel/6xeq4xplus10-diagrams.nools"/>
+    <Asset name="Lynnette-no-diagrams.js" label="Lynnette No Diagrams.Js" description="Lynnette No Diagrams.Js" asset_locator="HTML/Assets/Lynnette-no-diagrams.js"/>
+    <Asset name="skills.nools" label="Skills.Nools" description="Skills.Nools" asset_locator="CognitiveModel/skills.nools"/>
+    <Asset name="10eq2xplus8.nools" label="10eq2xplus8.Nools" description="10eq2xplus8.Nools" asset_locator="CognitiveModel/10eq2xplus8.nools"/>
+    <Asset name="10eq5plusx.nools" label="10eq5plusx.Nools" description="10eq5plusx.Nools" asset_locator="CognitiveModel/10eq5plusx.nools"/>
+    <Asset name="12xeq2xplus10.nools" label="12xeq2xplus10.Nools" description="12xeq2xplus10.Nools" asset_locator="CognitiveModel/12xeq2xplus10.nools"/>
+    <Asset name="15eq4xplus3.nools" label="15eq4xplus3.Nools" description="15eq4xplus3.Nools" asset_locator="CognitiveModel/15eq4xplus3.nools"/>
+    <Asset name="2plusxeq9.nools" label="2plusxeq9.Nools" description="2plusxeq9.Nools" asset_locator="CognitiveModel/2plusxeq9.nools"/>
+    <Asset name="2xplus3eq7.nools" label="2xplus3eq7.Nools" description="2xplus3eq7.Nools" asset_locator="CognitiveModel/2xplus3eq7.nools"/>
+    <Asset name="3xplus1eq10.nools" label="3xplus1eq10.Nools" description="3xplus1eq10.Nools" asset_locator="CognitiveModel/3xplus1eq10.nools"/>
+    <Asset name="4xplus1eq9.nools" label="4xplus1eq9.Nools" description="4xplus1eq9.Nools" asset_locator="CognitiveModel/4xplus1eq9.nools"/>
+    <Asset name="4xplus1eqxplus10.nools" label="4xplus1eqxplus10.Nools" description="4xplus1eqxplus10.Nools" asset_locator="CognitiveModel/4xplus1eqxplus10.nools"/>
+    <Asset name="5plusxeq7.nools" label="5plusxeq7.Nools" description="5plusxeq7.Nools" asset_locator="CognitiveModel/5plusxeq7.nools"/>
+    <Asset name="5xplus2eq2xplus8.nools" label="5xplus2eq2xplus8.Nools" description="5xplus2eq2xplus8.Nools" asset_locator="CognitiveModel/5xplus2eq2xplus8.nools"/>
+    <Asset name="6xeq12.nools" label="6xeq12.Nools" description="6xeq12.Nools" asset_locator="CognitiveModel/6xeq12.nools"/>
+    <Asset name="6xeq2xplus8.nools" label="6xeq2xplus8.Nools" description="6xeq2xplus8.Nools" asset_locator="CognitiveModel/6xeq2xplus8.nools"/>
+    <Asset name="6xeq4xplus10.nools" label="6xeq4xplus10.Nools" description="6xeq4xplus10.Nools" asset_locator="CognitiveModel/6xeq4xplus10.nools"/>
+    <Asset name="6xplus3eqxplus13.nools" label="6xplus3eqxplus13.Nools" description="6xplus3eqxplus13.Nools" asset_locator="CognitiveModel/6xplus3eqxplus13.nools"/>
+    <Asset name="8xeq2xplus6.nools" label="8xeq2xplus6.Nools" description="8xeq2xplus6.Nools" asset_locator="CognitiveModel/8xeq2xplus6.nools"/>
+    <Asset name="8xplus1eq2xplus13.nools" label="8xplus1eq2xplus13.Nools" description="8xplus1eq2xplus13.Nools" asset_locator="CognitiveModel/8xplus1eq2xplus13.nools"/>
+    <Asset name="9eq4plusx.nools" label="9eq4plusx.Nools" description="9eq4plusx.Nools" asset_locator="CognitiveModel/9eq4plusx.nools"/>
+    <Asset name="xplus2eq6.nools" label="Xplus2eq6.Nools" description="Xplus2eq6.Nools" asset_locator="CognitiveModel/xplus2eq6.nools"/>
+    <Asset name="xplus3eq5.nools" label="Xplus3eq5.Nools" description="Xplus3eq5.Nools" asset_locator="CognitiveModel/xplus3eq5.nools"/>
+  </Assets>
+</Package>

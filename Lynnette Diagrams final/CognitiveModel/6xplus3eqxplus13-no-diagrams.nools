@@ -1,0 +1,10 @@
+import("productionrulesMB.nools");
+
+global pName = "6xplus3eqxplus13";
+global initLeft = "6x+3";
+global initRight = "x+13";
+global finalX = "2";
+
+global stepSkipLevel = 2;
+global parseProblem = true;
+global useDiagrams = false;

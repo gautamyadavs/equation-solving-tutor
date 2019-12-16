@@ -1,0 +1,15 @@
+import("productionrulesMB.nools");
+
+global pName = "8xeq2xplus6";
+global initLeft = "8x";
+global initRight = "2x+6";
+global finalX = "1";
+
+global stepSkipLevel = 2;
+global parseProblem = true;
+global useDiagrams = true;
+
+global operation1 = ["subtraction", "division-simple"];
+global operand1 = ["2x", "6"];
+global expBefore1 = ["8xeq2x + 6", "6xeq6"];
+global expAfter1 = ["8x - 2xeq2x - 2x + 6", "6x/6eq6/6"];

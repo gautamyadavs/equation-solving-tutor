@@ -1,0 +1,10 @@
+import("productionrulesMB.nools");
+
+global pName = "x+2eq6";
+global initLeft = "x+2";
+global initRight = "6";
+global finalX = "4";
+
+global stepSkipLevel = 2;
+
+global parseProblem = true;
