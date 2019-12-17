@@ -2,9 +2,9 @@
 Intelligent Tutoring Software for Equation Solving
 
 Instructions on running the example tracing tutor: <br />
-KidVersion.html           KidVersion.brd <br />
-POLExampleTracing.html    solveEquation.brd <br />
-selfexplain.html          selfexplain.brd <br />
+Diagrammatic self-explanation of future steps - KidVersion.html           KidVersion.brd <br />
+Diagram Mirroring Tutor                       - POLExampleTracing.html    solveEquation.brd <br />
+Incorrect worked examples with tape diagrams  - selfexplain.html          selfexplain.brd <br />
 
 Lynnette-diagrams.html can be run with nools files inside Cognitive Model
 
