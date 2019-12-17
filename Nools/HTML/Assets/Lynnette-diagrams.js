@@ -1,5 +1,5 @@
 setTracerLogFlags("sai_check", "conflict_tree");
-var currentRow = 0, equationSolution, previousLeftTerms, previousRightTerms;
+var currentRow = 0, equationSolution, previousLeftTerms, previousRightTerms, flag=0;
 
 function showNextRow() {
   console.log('showNextRow');
@@ -71,38 +71,85 @@ function shortenLine($diagram, leftTerms, rightTerms) {
 }
 
 function setSubtractionDiagrams(params) {
-  console.log('setSubtractionDiagrams: ', params);
-  var [leftSide, rightSide, subtrahend] = params.split(',');
-  algebraParser.parser.yy.variableTable.setTable({x: equationSolution});
-  var leftTerms = getTerms(algebraParser.algParse(leftSide)),
-      rightTerms = getTerms(algebraParser.algParse(rightSide)),
-      subtrahendTerm = algebraParser.algParse(subtrahend),
-      left = subtrahendTerm.equals(previousLeftTerms[0]) || subtrahendTerm.equals(previousRightTerms[0]);
+  console.log('flag: ', flag);
+  if ((params.split(",").length - 1)>3 && flag==0 && false)
+  {
+    flag=1;
+    console.log('setSubtractionDiagrams: ', params);
+    var [leftSide, rightSide, subtrahend, alternateleftSide, alternaterightSide, alternatesubtrahend] = params.split(',');
+    // var problemdata = params.split(',').slice(start).join(',');
+    // console.log('problemdata: ', problemdata);
+    algebraParser.parser.yy.variableTable.setTable({x: equationSolution});
+    var leftTerms = getTerms(algebraParser.algParse(leftSide)),
+        rightTerms = getTerms(algebraParser.algParse(rightSide)),
+        subtrahendTerm = algebraParser.algParse(subtrahend),
+        leftTerms1 = getTerms(algebraParser.algParse(alternateleftSide)),
+        rightTerms1 = getTerms(algebraParser.algParse(alternaterightSide)),
+        subtrahendTerm1 = algebraParser.algParse(alternatesubtrahend),
+        left = subtrahendTerm.equals(previousLeftTerms[0]) || subtrahendTerm.equals(previousRightTerms[0]);
 
-  var $diagrams = $(`#radioExplain${currentRow}Diagram1, #radioExplain${currentRow}Diagram2, #radioExplain${currentRow}Diagram3`),
-      $diagram2 = $(`#radioExplain${currentRow}Diagram2`),
-      $diagram3 = $(`#radioExplain${currentRow}Diagram3`);
+    var $diagrams = $(`#radioExplain${currentRow}Diagram1, #radioExplain${currentRow}Diagram2, #radioExplain${currentRow}Diagram3`),
+        $diagram2 = $(`#radioExplain${currentRow}Diagram2`),
+        $diagram3 = $(`#radioExplain${currentRow}Diagram3`);
 
-  //leftBoxes for top part and rightBoxes for bottom part of tape diagram
-  setSubtractionLine($diagrams.find('.leftBoxes'), leftTerms, subtrahendTerm, left);
-  setSubtractionLine($diagrams.find('.rightBoxes'), rightTerms, subtrahendTerm, left);
+    //leftBoxes for top part and rightBoxes for bottom part of tape diagram
+    setSubtractionLine($diagrams.find('.leftBoxes'), leftTerms, subtrahendTerm, left);
+    setSubtractionLine($diagrams.find('.rightBoxes'), rightTerms, subtrahendTerm, left);
+    console.log("leftTerms,", leftTerms,"subtrahendTerm ", subtrahendTerm1,"left ", left);
+    setSubtractionLine($diagram3.find('.leftBoxes'), leftTerms1, subtrahendTerm1, left);
+    setSubtractionLine($diagram3.find('.rightBoxes'), rightTerms1, subtrahendTerm1, left);
 
-  //for removing coefficients from both sides
-  extendRemoved($diagram2, leftTerms, rightTerms, subtrahendTerm, left);
-  //for removing coefficient only from one side
-  removeRemoved($diagram3, leftTerms, rightTerms, subtrahendTerm, left);
+    //for removing coefficients from both sides
+    extendRemoved($diagram2, leftTerms, rightTerms, subtrahendTerm, left);
 
-  //for the black lines
-  if (left) {
-    $diagrams.find('.startLine').css('left', `calc(${100 * (1 - evaluate(leftTerms) / evaluate(leftTerms.concat(subtrahendTerm)))}% - 1px`);
-    $diagrams.find('.endLine').css('left', 'calc(100% - 1px)');
-    $diagram3.find('.startLine').css('left', '0%');
-  } else {
-    $diagrams.find('.startLine').css('left', '0%');
-    $diagrams.find('.endLine').css('left', `calc(${100 * evaluate(leftTerms) / evaluate(leftTerms.concat(subtrahendTerm))}% - 1px`);
-    $diagram3.find('.endLine').css('left', 'calc(100% - 1px)');
+    //for the black lines
+    if (left) {
+      $diagrams.find('.startLine').css('left', `calc(${100 * (1 - evaluate(leftTerms) / evaluate(leftTerms.concat(subtrahendTerm)))}% - 1px`);
+      $diagrams.find('.endLine').css('left', 'calc(100% - 1px)');
+      $diagram3.find('.startLine').css('left', `calc(${100 * (1 - evaluate(leftTerms1) / evaluate(leftTerms1.concat(subtrahendTerm1)))}% - 1px`);
+    } else {
+      $diagrams.find('.startLine').css('left', '0%');
+      $diagrams.find('.endLine').css('left', `calc(${100 * evaluate(leftTerms) / evaluate(leftTerms.concat(subtrahendTerm))}% - 1px`);
+      $diagram3.find('.endLine').css('left', `calc(${100 * evaluate(leftTerms1) / evaluate(leftTerms1.concat(subtrahendTerm1))}% - 1px`);
+    }
+  }
+  else
+  {
+    console.log('setSubtractionDiagrams: ', params);
+    var [leftSide, rightSide, subtrahend] = params.split(',');
+    algebraParser.parser.yy.variableTable.setTable({x: equationSolution});
+    var leftTerms = getTerms(algebraParser.algParse(leftSide)),
+        rightTerms = getTerms(algebraParser.algParse(rightSide)),
+        subtrahendTerm = algebraParser.algParse(subtrahend),
+        subtrahendTerm1 = algebraParser.algParse("x"),
+        left = subtrahendTerm.equals(previousLeftTerms[0]) || subtrahendTerm.equals(previousRightTerms[0]);
+
+    var $diagrams = $(`#radioExplain${currentRow}Diagram1, #radioExplain${currentRow}Diagram2, #radioExplain${currentRow}Diagram3`),
+        $diagram2 = $(`#radioExplain${currentRow}Diagram2`),
+        $diagram3 = $(`#radioExplain${currentRow}Diagram3`);
+
+    //leftBoxes for top part and rightBoxes for bottom part of tape diagram
+    setSubtractionLine($diagrams.find('.leftBoxes'), leftTerms, subtrahendTerm, left);
+    setSubtractionLine($diagrams.find('.rightBoxes'), rightTerms, subtrahendTerm, left);
+
+    //for removing coefficients from both sides
+    extendRemoved($diagram2, leftTerms, rightTerms, subtrahendTerm, left);
+    //for removing coefficient only from one side
+    removeRemoved($diagram3, leftTerms, rightTerms, subtrahendTerm, left);
+
+    //for the black lines
+    if (left) {
+      $diagrams.find('.startLine').css('left', `calc(${100 * (1 - evaluate(leftTerms) / evaluate(leftTerms.concat(subtrahendTerm)))}% - 1px`);
+      $diagrams.find('.endLine').css('left', 'calc(100% - 1px)');
+      $diagram3.find('.startLine').css('left', '0%');
+    } else {
+      $diagrams.find('.startLine').css('left', '0%');
+      $diagrams.find('.endLine').css('left', `calc(${100 * evaluate(leftTerms) / evaluate(leftTerms.concat(subtrahendTerm))}% - 1px`);
+      $diagram3.find('.endLine').css('left', 'calc(100% - 1px)');
+    }
   }
 
+  console.log("Diagrams:", $diagrams);
   randomizeDiagramOrder($diagrams);
   $diagrams.css('display', 'inline-flex');
   [previousLeftTerms, previousRightTerms] = [leftTerms, rightTerms];
@@ -151,6 +198,11 @@ function removeRemoved($diagram, leftTerms, rightTerms, subtrahendTerm, left) {
       terms = topSide ? leftTerms : rightTerms,
       index = terms.findIndex((term) => term.constant() == subtrahendTerm.constant()),
       text = algebraParser.algSimplify(new CTATAdditionNode('PLUS', [terms[index], subtrahendTerm])).toString();
+  //Something to do with side that doesn't change so black bars remain same and value is yellow or blue
+  console.log("topSide: ",topSide);
+  console.log("terms: ",terms);
+  console.log("index: ",index);
+  console.log("text: ",text);
   ($boxes = $diagram.find(topSide ? '.leftBoxes' : '.rightBoxes').find('.box')).eq(2).css('display', 'none');
   $boxes.eq(index).text(text).css('width', getLength([terms[index], subtrahendTerm], terms.concat(subtrahendTerm)) + '%');
   $boxes.eq(3).css('display', 'none');

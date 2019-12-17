@@ -6,5 +6,12 @@ global initRight = "6";
 global finalX = "4";
 
 global stepSkipLevel = 2;
-global parseProblem = true;
 global useDiagrams = true;
+
+global operation1 = ["subtraction"];
+global operand1 = ["2"];
+global expBefore1 = ["x + 2eq6"];
+global expAfter1 = ["x + 2 - 2eq6 - 2"];
+global alternateoperand1 = '';
+global alternateexpBefore1 = '';
+global alternateexpAfter1 = '';

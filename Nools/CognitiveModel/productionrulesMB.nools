@@ -159,7 +159,7 @@ rule bootstrap {
 		}
 
 		//setting up internal representation of the equation in working memory
-		if(parseProblem){
+		if(true){
 			//initialize working memory by parsing the problem string
 			var facts = getAllFacts(initLeft, initRight);
 			facts.forEach(function(fact){
@@ -269,7 +269,14 @@ rule PickDiagram {
 			if (prob.diagramRowNum==1) //if (operand1.length>=prob.numRows)
 			{
 				var tpa = null, diagramData = null;
-				diagramData = {operation: operation1[diagramRowNum], operand: operand1[diagramRowNum], expBefore: expBefore1[diagramRowNum].replace("eq", "="), expAfter: expAfter1[diagramRowNum].replace("eq", "=")};
+				if(alternateexpAfter1)
+				{
+					diagramData = {operation: operation1[diagramRowNum], operand: operand1[diagramRowNum], expBefore: expBefore1[diagramRowNum].replace("eq", "="), expAfter: expAfter1[diagramRowNum].replace("eq", "="), alternateexpAfter: alternateexpAfter1[diagramRowNum].replace("eq", "="), alternateoperand: alternateoperand1[diagramRowNum]};
+				}
+				else {
+					diagramData = {operation: operation1[diagramRowNum], operand: operand1[diagramRowNum], expBefore: expBefore1[diagramRowNum].replace("eq", "="), expAfter: expAfter1[diagramRowNum].replace("eq", "=")};
+				}
+				console.log("diagramData:", diagramData);
 				tpa = genDiagramTPA([diagramData]);
 				if (tpa) {
 					assert(new TPA(tpa[0], tpa[1], tpa[2]));

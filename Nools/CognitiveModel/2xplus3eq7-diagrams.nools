@@ -1,10 +1,17 @@
 import("productionrulesMB.nools");
 
-global pName = "2xeq6";
+global pName = "2xplus3eq7";
 global initLeft = "2x+3";
 global initRight = "7";
 global finalX = "2";
 
 global stepSkipLevel = 2;
-global parseProblem = true;
 global useDiagrams = true;
+
+global operation1 = ["subtraction", "division-simple"];
+global operand1 = ["3", "2"];
+global expBefore1 = ["2x + 3eq7", "2xeq4"];
+global expAfter1 = ["2x + 3 - 3eq7 - 3", "2x/2eq4/2"];
+global alternateoperand1 = '';
+global alternateexpBefore1 = '';
+global alternateexpAfter1 = '';

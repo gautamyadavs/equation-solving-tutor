@@ -28,10 +28,19 @@ var genDiagramTPA = (function() {
 		console.log("genDiagramTPA for ")
 		var transformation = transformationList[0]; //only cover one right now
 		console.log(transformation);
-		var functionName = opToFunctionMap[transformation.operation];
-			simpExpAfter = CTATAlgebraParser.theParser.algSimplify(transformation.expAfter),
-			argStr = simpExpAfter.replace("=", ',')+','+transformation.operand;
-		console.log(functionName);
+		if (transformation.alternateexpAfter)
+		{
+			var functionName = opToFunctionMap[transformation.operation];
+				simpExpAfter = CTATAlgebraParser.theParser.algSimplify(transformation.expAfter),
+				simpalternateexpAfter = CTATAlgebraParser.theParser.algSimplify(transformation.alternateexpAfter),
+				argStr = simpExpAfter.replace("=", ',')+','+transformation.operand+','+simpalternateexpAfter.replace("=", ',')+','+transformation.alternateoperand;
+		}
+		else {
+			var functionName = opToFunctionMap[transformation.operation];
+				simpExpAfter = CTATAlgebraParser.theParser.algSimplify(transformation.expAfter),
+				argStr = simpExpAfter.replace("=", ',')+','+transformation.operand;
+		}
+		console.log("functionName", functionName, argStr);
 		return ['_root', functionName, argStr];
 	}
 })();
@@ -343,7 +352,7 @@ function getExpressionString(expression){
 		if(term.type == "Expr"){
 			termRepr = "(" + getExpressionString(term) + ")" + " + ";
 		}else{
-			termRepr = "(" + termStr(term) + ")" + " + "; 
+			termRepr = "(" + termStr(term) + ")" + " + ";
 		}
 		repr += termRepr;
 	});
@@ -372,7 +381,7 @@ function getEquationString(){
 * parsing problem string to initialize working memory
 *
 */
-function simpleTerm(c, v, s) {   	
+function simpleTerm(c, v, s) {
    	this.coeff = c;
    	this.var = v;
    	this.side = s;
@@ -445,7 +454,7 @@ function getFactsFromNode(facts,node,side,topLevel){
 				console.log("productTerm");
 			}
 			break;
-		case "PLUS" : 
+		case "PLUS" :
 			//new Expression
 			var terms = [];
 			node.terms.forEach(function(subNode){
@@ -458,7 +467,7 @@ function getFactsFromNode(facts,node,side,topLevel){
 			break;
 		case "TIMES" :
 			//check if this is a simpleTerm or a productTerm
-			if(node.factors.length == 2 
+			if(node.factors.length == 2
 				&& ((node.factors[0].operator === "VAR" && node.factors[1].operator === "CONST")
 					||(node.factors[1].operator === "VAR" && node.factors[0].operator === "CONST"))){
 				//This is a simpleTerm :  4x
@@ -476,9 +485,9 @@ function getFactsFromNode(facts,node,side,topLevel){
 				var newSimpleTerm = new simpleTerm(coeff, variable, side);
 				facts.push(newSimpleTerm);
 				return (facts.length - 1);
-			}else if( (node.factors.length == 2) 
+			}else if( (node.factors.length == 2)
 				&& (node.factors[0].operator === "UMINUS")
-				&& (node.factors[1].operator === "VAR") 
+				&& (node.factors[1].operator === "VAR")
 				&& (node.factors[0].base.operator === "CONST")){
 				//This is a simpleTerm :  -3x
 				var f0 = node.factors[0];
