@@ -1,0 +1,71 @@
+
+
+        .body-initial {background-color: rgb(255, 255, 255);
+        }
+        .silex-id-1575683281492-0 {top: 40px; left: 270px; height: 60px; width: 600px;
+        }
+        .silex-id-1575683299537-1 {top: 40px; left: 900px; height: 140px; width: 400px;
+        }
+        .silex-id-1575683307721-2 {top: 200px; left: 40px; height: 1.4em; width: 580px;
+        }
+        .silex-id-1575683314961-3 {top: 200px; left: 540px; height: 1.4em; width: 100px;
+        }
+        .silex-id-1575683318545-4 {top: 200px; left: 780px; height: 1.4em; width: 100px;
+        }
+        .silex-id-1575683322057-5 {top: 200px; left: 1020px; height: 1.4em; width: 100px;
+        }
+        .silex-id-1575683327201-6 {top: 440px; left: 40px; height: 1.4em; width: 580px;
+        }
+        .silex-id-1575683338118-7 {top: 440px; left: 540px; height: 1.4em; width: 100px;
+        }
+        .silex-id-1575683340958-8 {top: 440px; left: 780px; height: 1.4em; width: 100px;
+        }
+        .silex-id-1575683343899-9 {top: 440px; left: 1020px; height: 1.4em; width: 100px;
+        }
+        .silex-id-1575683359349-11 {top: 620px; left: 40px; height: 1.4em; width: 580px;
+        }
+        .silex-id-1575683354515-10 {top: 660px; left: 40px; height: 100px; width: 580px;
+        }
+        .background-initial {background-color: rgb(255, 255, 255); top: 5px; left: 35px; width: 1386px; height: 835px;
+        }
+        .silex-id-1575683388318-13 {top: 660px; left: 640px; height: 30px; width: 80px;
+        }
+        .silex-id-1575683384122-12 {top: 660px; left: 900px; height: 100px; width: 280px; display: none;
+        }
+        .silex-id-1575683281492-0 > textarea {border-width: 0px; border-style: solid;
+        }
+        .silex-id-1575683307721-2 > input {border-width: 0px; border-style: inset;
+        }
+        .silex-id-1575683384122-12 > textarea {border-width: 0px; border-style: solid;
+        }
+        .silex-id-1575683359349-11 > input {border-width: 0px; border-style: inset;
+        }
+        .silex-id-1575683327201-6 > input {border-width: 0px; border-style: inset;
+        }
+        .silex-id-1574794276845-46 {top: 240px; left: 820px; height: 100px; width: 220px;
+        }
+        .silex-id-1574794260997-45 {top: 240px; left: 540px; height: 100px; width: 260px;
+        }
+        .silex-id-1574794304921-47 {top: 240px; left: 1100px; height: 100px; width: 240px;
+        }
+        .silex-id-1574794343448-48 {top: 480px; left: 540px; height: 100px; width: 200px;
+        }
+        .silex-id-1574794356018-49 {top: 480px; left: 820px; height: 100px; width: 240px;
+        }
+        .silex-id-1574794408140-51 {top: 480px; left: 1100px; height: 100px; width: 220px;
+        }
+        .silex-id-1575656114052-16 {top: 40px; left: 40px; height: 100px; width: 200px;
+        }
+        #block {position:relative;
+          top: 660px;
+          left: 650px;
+          height: 40px;
+          width: 100px;
+          border: none;
+          font-size: 16px;
+          cursor: pointer;
+          text-align: center;
+          background-color: #ddd;
+          color: black;
+          display: none;
+        }

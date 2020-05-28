@@ -17,19 +17,24 @@
     <script src="Assets/nools.js"></script>
     <script src="Assets/Lynnette-diagrams.js"></script>
     <script src="Assets/Lynnette-animations.js"></script>
-    <script>		
-       var myVars = {		
-         question_file: "../CognitiveModel/4xplus1eqxplus10-diagrams.nools",		
-         tutoring_service_communication: "javascript"		
-       };		
-       function ctatOnload() {		
-         initTutor(myVars);		
-         // MathJax.Hub.Typeset();		
-         // initTutor();		
-         // $('#problem-statement-part-1').on('CTAT_EXECUTE_SAI', function (e) {		
-         //     MathJax.Hub.Queue(['Typeset', MathJax.Hub, $('#problem-statement-part-1')[0]]);		
-         // });		
-       }		
+    <script type="text/javascript">
+    window.onload = function(event) {
+        window.setInterval(publishHeight, 300);
+    }
+    </script>
+    <script>
+       var myVars = {
+         question_file: "../CognitiveModel/4xplus1eqxplus10-diagrams.nools",
+         tutoring_service_communication: "javascript"
+       };
+       function ctatOnload() {
+         initTutor(myVars);
+         // MathJax.Hub.Typeset();
+         // initTutor();
+         // $('#problem-statement-part-1').on('CTAT_EXECUTE_SAI', function (e) {
+         //     MathJax.Hub.Queue(['Typeset', MathJax.Hub, $('#problem-statement-part-1')[0]]);
+         // });
+       }
      </script>
   </head>
 

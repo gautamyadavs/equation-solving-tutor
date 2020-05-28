@@ -149,72 +149,72 @@ Select the tape diagrams for solving the question and then enter the equations s
         <text>state2</text>
         <uniqueID>3</uniqueID>
         <dimension>
-            <x>401</x>
-            <y>239</y>
+            <x>245</x>
+            <y>250</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
         <text>state8</text>
         <uniqueID>9</uniqueID>
         <dimension>
-            <x>402</x>
-            <y>349</y>
+            <x>277</x>
+            <y>367</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
-        <text>state16</text>
-        <uniqueID>17</uniqueID>
+        <text>state9</text>
+        <uniqueID>10</uniqueID>
         <dimension>
-            <x>398</x>
-            <y>452</y>
+            <x>303</x>
+            <y>487</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
-        <text>state17</text>
-        <uniqueID>18</uniqueID>
+        <text>state10</text>
+        <uniqueID>11</uniqueID>
         <dimension>
-            <x>285</x>
-            <y>523</y>
+            <x>298</x>
+            <y>597</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
-        <text>state18</text>
-        <uniqueID>19</uniqueID>
+        <text>state11</text>
+        <uniqueID>12</uniqueID>
         <dimension>
-            <x>285</x>
-            <y>633</y>
+            <x>298</x>
+            <y>707</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
-        <text>state19</text>
-        <uniqueID>20</uniqueID>
+        <text>state12</text>
+        <uniqueID>13</uniqueID>
         <dimension>
-            <x>285</x>
-            <y>743</y>
+            <x>298</x>
+            <y>817</y>
         </dimension>
     </node>
     <node locked="false" doneState="false">
-        <text>state20</text>
-        <uniqueID>21</uniqueID>
+        <text>state13</text>
+        <uniqueID>14</uniqueID>
         <dimension>
-            <x>285</x>
-            <y>853</y>
+            <x>298</x>
+            <y>927</y>
+        </dimension>
+    </node>
+    <node locked="false" doneState="false">
+        <text>state14</text>
+        <uniqueID>15</uniqueID>
+        <dimension>
+            <x>298</x>
+            <y>1037</y>
         </dimension>
     </node>
     <node locked="false" doneState="true">
-        <text>Done_2</text>
-        <uniqueID>22</uniqueID>
+        <text>Done</text>
+        <uniqueID>16</uniqueID>
         <dimension>
-            <x>286</x>
-            <y>963</y>
-        </dimension>
-    </node>
-    <node locked="false" doneState="false">
-        <text>state22</text>
-        <uniqueID>23</uniqueID>
-        <dimension>
-            <x>188</x>
-            <y>256</y>
+            <x>307</x>
+            <y>1147</y>
         </dimension>
     </node>
     <edge>
@@ -402,12 +402,72 @@ Select the tape diagrams for solving the question and then enter the equations s
             <studentHintRequest></studentHintRequest>
             <stepSuccessfulCompletion></stepSuccessfulCompletion>
             <stepStudentError></stepStudentError>
-            <uniqueID>31</uniqueID>
+            <uniqueID>17</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>8d3cb371-537e-a922-24a7-88c60bd587ab</transaction_id>
+                    <transaction_id>e7840da9-385f-e02a-490b-5f4dc6d96795</transaction_id>
+                    <Selection>
+                        <value>group2</value>
+                    </Selection>
+                    <Action>
+                        <value>UpdateRadioButton</value>
+                    </Action>
+                    <Input>
+                        <value>ctatdiv35: </value>
+                    </Input>
+                </properties>
+            </message>
+            <buggyMessage>No, this is not correct.</buggyMessage>
+            <successMessage></successMessage>
+            <hintMessage>Please choose among the highlighted radio buttons.</hintMessage>
+            <callbackFn></callbackFn>
+            <actionType>Correct Action</actionType>
+            <oldActionType>Correct Action</oldActionType>
+            <checkedStatus>Never Checked</checkedStatus>
+            <matchers Concatenation="true">
+                <Selection>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">group2</matcherParameter>
+                    </matcher>
+                </Selection>
+                <Action>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">UpdateRadioButton</matcherParameter>
+                    </matcher>
+                </Action>
+                <Input>
+                    <matcher>
+                        <matcherType>ExactMatcher</matcherType>
+                        <matcherParameter name="single">ctatdiv35: </matcherParameter>
+                    </matcher>
+                </Input>
+                <Actor linkTriggered="false">Student</Actor>
+            </matchers>
+        </actionLabel>
+        <preCheckedStatus>No-Applicable</preCheckedStatus>
+        <rule>
+            <text>unnamed</text>
+            <indicator>-1</indicator>
+        </rule>
+        <sourceID>9</sourceID>
+        <destID>10</destID>
+        <traversalCount>0</traversalCount>
+    </edge>
+    <edge>
+        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
+            <studentHintRequest></studentHintRequest>
+            <stepSuccessfulCompletion></stepSuccessfulCompletion>
+            <stepStudentError></stepStudentError>
+            <uniqueID>19</uniqueID>
+            <message>
+                <verb>NotePropertySet</verb>
+                <properties>
+                    <MessageType>InterfaceAction</MessageType>
+                    <transaction_id>a4ebd077-0e44-9951-4f42-968d30ce987b</transaction_id>
                     <Selection>
                         <value>ctatdiv44</value>
                     </Selection>
@@ -453,8 +513,8 @@ Select the tape diagrams for solving the question and then enter the equations s
             <text>unnamed</text>
             <indicator>-1</indicator>
         </rule>
-        <sourceID>9</sourceID>
-        <destID>17</destID>
+        <sourceID>10</sourceID>
+        <destID>11</destID>
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
@@ -462,12 +522,12 @@ Select the tape diagrams for solving the question and then enter the equations s
             <studentHintRequest></studentHintRequest>
             <stepSuccessfulCompletion></stepSuccessfulCompletion>
             <stepStudentError></stepStudentError>
-            <uniqueID>33</uniqueID>
+            <uniqueID>21</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>fffe2e1e-9eab-0ed9-3a69-fbdbba40b30d</transaction_id>
+                    <transaction_id>b06a1110-2ab3-1e56-1243-9e44810e0f8a</transaction_id>
                     <Selection>
                         <value>ctatdiv52</value>
                     </Selection>
@@ -513,8 +573,8 @@ Select the tape diagrams for solving the question and then enter the equations s
             <text>unnamed</text>
             <indicator>-1</indicator>
         </rule>
-        <sourceID>17</sourceID>
-        <destID>18</destID>
+        <sourceID>11</sourceID>
+        <destID>12</destID>
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
@@ -522,12 +582,12 @@ Select the tape diagrams for solving the question and then enter the equations s
             <studentHintRequest></studentHintRequest>
             <stepSuccessfulCompletion></stepSuccessfulCompletion>
             <stepStudentError></stepStudentError>
-            <uniqueID>35</uniqueID>
+            <uniqueID>23</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>55d55c76-b22a-5ba0-ca3f-2ad830529dbf</transaction_id>
+                    <transaction_id>f15e5557-53ec-fba7-fd56-a094f960e70f</transaction_id>
                     <Selection>
                         <value>group3</value>
                     </Selection>
@@ -573,8 +633,8 @@ Select the tape diagrams for solving the question and then enter the equations s
             <text>unnamed</text>
             <indicator>-1</indicator>
         </rule>
-        <sourceID>18</sourceID>
-        <destID>19</destID>
+        <sourceID>12</sourceID>
+        <destID>13</destID>
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
@@ -582,12 +642,12 @@ Select the tape diagrams for solving the question and then enter the equations s
             <studentHintRequest></studentHintRequest>
             <stepSuccessfulCompletion></stepSuccessfulCompletion>
             <stepStudentError></stepStudentError>
-            <uniqueID>37</uniqueID>
+            <uniqueID>25</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>dcaf326f-1fdd-f8e8-a6df-4cb48bb8fff8</transaction_id>
+                    <transaction_id>8dd7f038-a8a2-beff-6a27-daf140f6c800</transaction_id>
                     <Selection>
                         <value>ctatdiv77</value>
                     </Selection>
@@ -633,8 +693,8 @@ Select the tape diagrams for solving the question and then enter the equations s
             <text>unnamed</text>
             <indicator>-1</indicator>
         </rule>
-        <sourceID>19</sourceID>
-        <destID>20</destID>
+        <sourceID>13</sourceID>
+        <destID>14</destID>
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
@@ -642,12 +702,12 @@ Select the tape diagrams for solving the question and then enter the equations s
             <studentHintRequest></studentHintRequest>
             <stepSuccessfulCompletion></stepSuccessfulCompletion>
             <stepStudentError></stepStudentError>
-            <uniqueID>39</uniqueID>
+            <uniqueID>27</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>ba4294bd-9e25-455d-663a-d264007a408c</transaction_id>
+                    <transaction_id>a2201cd2-781e-65ed-787c-18ee4cc1c4b2</transaction_id>
                     <Selection>
                         <value>ctatdiv85</value>
                     </Selection>
@@ -693,8 +753,8 @@ Select the tape diagrams for solving the question and then enter the equations s
             <text>unnamed</text>
             <indicator>-1</indicator>
         </rule>
-        <sourceID>20</sourceID>
-        <destID>21</destID>
+        <sourceID>14</sourceID>
+        <destID>15</destID>
         <traversalCount>0</traversalCount>
     </edge>
     <edge>
@@ -702,12 +762,12 @@ Select the tape diagrams for solving the question and then enter the equations s
             <studentHintRequest></studentHintRequest>
             <stepSuccessfulCompletion></stepSuccessfulCompletion>
             <stepStudentError></stepStudentError>
-            <uniqueID>41</uniqueID>
+            <uniqueID>29</uniqueID>
             <message>
                 <verb>NotePropertySet</verb>
                 <properties>
                     <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>57380ffd-82c0-4732-3f7f-d03be57a6cb3</transaction_id>
+                    <transaction_id>9b781f39-9151-da18-ea69-38bed16a7b52</transaction_id>
                     <Selection>
                         <value>done</value>
                     </Selection>
@@ -753,128 +813,8 @@ Select the tape diagrams for solving the question and then enter the equations s
             <text>unnamed</text>
             <indicator>-1</indicator>
         </rule>
-        <sourceID>21</sourceID>
-        <destID>22</destID>
-        <traversalCount>0</traversalCount>
-    </edge>
-    <edge>
-        <actionLabel preferPathMark="false" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
-            <uniqueID>43</uniqueID>
-            <message>
-                <verb>NotePropertySet</verb>
-                <properties>
-                    <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>ce29a123-68fc-8692-7722-281ecb6a654a</transaction_id>
-                    <Selection>
-                        <value>ctatdiv23</value>
-                    </Selection>
-                    <Action>
-                        <value>UpdateTextField</value>
-                    </Action>
-                    <Input>
-                        <value>3x</value>
-                    </Input>
-                </properties>
-            </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
-            <hintMessage>Please enter '3x' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
-            <actionType>Correct Action</actionType>
-            <oldActionType>Correct Action</oldActionType>
-            <checkedStatus>Never Checked</checkedStatus>
-            <matchers Concatenation="true">
-                <Selection>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">ctatdiv23</matcherParameter>
-                    </matcher>
-                </Selection>
-                <Action>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">UpdateTextField</matcherParameter>
-                    </matcher>
-                </Action>
-                <Input>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">3x</matcherParameter>
-                    </matcher>
-                </Input>
-                <Actor linkTriggered="false">Student</Actor>
-            </matchers>
-        </actionLabel>
-        <preCheckedStatus>No-Applicable</preCheckedStatus>
-        <rule>
-            <text>unnamed</text>
-            <indicator>-1</indicator>
-        </rule>
-        <sourceID>2</sourceID>
-        <destID>23</destID>
-        <traversalCount>0</traversalCount>
-    </edge>
-    <edge>
-        <actionLabel preferPathMark="true" minTraversals="1" maxTraversals="1">
-            <studentHintRequest></studentHintRequest>
-            <stepSuccessfulCompletion></stepSuccessfulCompletion>
-            <stepStudentError></stepStudentError>
-            <uniqueID>45</uniqueID>
-            <message>
-                <verb>NotePropertySet</verb>
-                <properties>
-                    <MessageType>InterfaceAction</MessageType>
-                    <transaction_id>1c12df88-97ac-ec89-2636-b8abc5808565</transaction_id>
-                    <Selection>
-                        <value>ctatdiv31</value>
-                    </Selection>
-                    <Action>
-                        <value>UpdateTextField</value>
-                    </Action>
-                    <Input>
-                        <value>6</value>
-                    </Input>
-                </properties>
-            </message>
-            <buggyMessage>No, this is not correct.</buggyMessage>
-            <successMessage></successMessage>
-            <hintMessage>Please enter '6' in the highlighted field.</hintMessage>
-            <callbackFn></callbackFn>
-            <actionType>Correct Action</actionType>
-            <oldActionType>Correct Action</oldActionType>
-            <checkedStatus>Never Checked</checkedStatus>
-            <matchers Concatenation="true">
-                <Selection>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">ctatdiv31</matcherParameter>
-                    </matcher>
-                </Selection>
-                <Action>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">UpdateTextField</matcherParameter>
-                    </matcher>
-                </Action>
-                <Input>
-                    <matcher>
-                        <matcherType>ExactMatcher</matcherType>
-                        <matcherParameter name="single">6</matcherParameter>
-                    </matcher>
-                </Input>
-                <Actor linkTriggered="false">Student</Actor>
-            </matchers>
-        </actionLabel>
-        <preCheckedStatus>No-Applicable</preCheckedStatus>
-        <rule>
-            <text>unnamed</text>
-            <indicator>-1</indicator>
-        </rule>
-        <sourceID>23</sourceID>
-        <destID>18</destID>
+        <sourceID>15</sourceID>
+        <destID>16</destID>
         <traversalCount>0</traversalCount>
     </edge>
     <EdgesGroups ordered="true"></EdgesGroups>
