@@ -18,14 +18,6 @@ function getTermsAsStrings(side) {
 	return termStrs;
 }
 
-function genDiagramTPAArg(transformation) {
-	var	simpSides = transformation.expAfter.split("=").map((side)=>CTATAlgebraParser.theParser.algSimplify(side)),
-		argStr = simpSides.concat(transformation.operand).join(","),
-		operation = transformation.operation.includes('division') ? 'division' : transformation.operation;
-	
-	return transformation.expBefore+','+operation+','+transformation.operand;
-}
-
 var genDiagramTPA = (function() {
 	var opToFunctionMap = {
 		'subtraction': 'setSubtractionDiagrams',
@@ -36,10 +28,20 @@ var genDiagramTPA = (function() {
 		console.log("genDiagramTPA for ")
 		var transformation = transformationList[0]; //only cover one right now
 		console.log(transformation);
-		var functionName = opToFunctionMap[transformation.operation],
-			argStr = genDiagramTPAArg(transformation);
-		console.log(functionName);
-		return ['_root', 'showStepDiagrams', argStr];
+		if (transformation.alternateexpAfter)
+		{
+			var functionName = opToFunctionMap[transformation.operation];
+				simpExpAfter = CTATAlgebraParser.theParser.algSimplify(transformation.expAfter),
+				simpalternateexpAfter = CTATAlgebraParser.theParser.algSimplify(transformation.alternateexpAfter),
+				argStr = simpExpAfter.replace("=", ',')+','+transformation.operand+','+simpalternateexpAfter.replace("=", ',')+','+transformation.alternateoperand;
+		}
+		else {
+			var functionName = opToFunctionMap[transformation.operation];
+				simpExpAfter = CTATAlgebraParser.theParser.algSimplify(transformation.expAfter),
+				argStr = simpExpAfter.replace("=", ',')+','+transformation.operand;
+		}
+		console.log("functionName", functionName, argStr);
+		return ['_root', functionName, argStr];
 	}
 })();
 
@@ -74,7 +76,17 @@ function divTermStr(t) {
 	var topStr = eqStr(top.terms);
 	var bottom = t.factors[1];
 	var bottomStr = eqStr(bottom.terms);
-	var result = ("(" + topStr + ")/(" + bottomStr + ")");
+	if(top.terms.length > 1){
+		result += ("(" + topStr + ")");
+	}else{
+		result += topStr;
+	}
+	result += "/";
+	if(bottom.terms.length > 1){
+		result += ("(" + bottomStr + ")");
+	}else{
+		result += bottomStr;
+	}
 	return result;
 }
 
@@ -101,34 +113,25 @@ function productTermStr(t){
 	return result;
 }
 
-function unknownTermStr(t, fillInCouldBe) {
-	return fillInCouldBe ? simpleTermStr(t.couldBe) : "?";
-}
-
 /*
 str repr of a term
 */
-function termStr(t, fillInUnknowns) {    // t is Nools object of type Term (or is it?)
+function termStr(t, spaceAfterNeg) {    // t is Nools object of type Term (or is it?)
 	var result = "";
-	switch(t.type) {
-		case "simpleTerm":     // would like to test that it is a Term object, but ...
-			return simpleTermStr(t);
-		break;
-		case "divTerm":
-			return divTermStr(t);
-		break;
-		case "productTerm":
-			return productTermStr(t);
-		break;
-		case "unknownTerm":
-			return unknownTermStr(t, fillInUnknowns);
-		break;
-		default:
-			return "";
+	if (t.type === "simpleTerm") {     // would like to test that it is a Term object, but ...
+		return simpleTermStr(t, spaceAfterNeg);
+	}
+	else if (t.type === "divTerm") {
+		return divTermStr(t);
+	}else if (t.type === "productTerm"){
+		return productTermStr(t);
+	}
+	else {
+		return "";
 	}
 }
 
-function eqStr(l, r, fillInUnknowns) {   // l and r are lists of terms - r may be undefined (if you want only one side)
+function eqStr(l, r) {   // l and r are lists of terms - r may be undefined (if you want only one side)
 //	console.log("+++eqStr", l, r);
 	var result = "";
 	var i;
@@ -146,11 +149,11 @@ function eqStr(l, r, fillInUnknowns) {   // l and r are lists of terms - r may b
 			if (idx === 1) {
 				result += '=';
 			}
-			var nextStr = termStr(side[0], fillInUnknowns);
+			var nextStr = termStr(side[0]);
 			for (i = 0; i < side.length; i++) {
 				result += nextStr;
 				if(i < side.length - 1){
-					nextStr = termStr(side[i+1], fillInUnknowns);
+					nextStr = termStr(side[i+1]);
 					if(nextStr.startsWith("-")){
 						result += " ";
 					}else{
@@ -165,7 +168,7 @@ function eqStr(l, r, fillInUnknowns) {   // l and r are lists of terms - r may b
 }
 
 function checkEqualEquation(input1, input2){
-	return CTATAlgebraParser.theParser.algIdentical(input1, input2, false, true);
+	return CTATAlgebraParser.theParser.algIdentical(input1, input2);
 }
 
 /*check if two strings are the same expression
@@ -196,16 +199,6 @@ function oppositeSide(side) {
 	else  {
 		return side;
 	}
-}
-
-function hasTerm(exp, term) {
-	for (let i = 0; i < exp.terms.length; i++) {
-		let ti = exp.terms[i];
-		if (ti.var === term.var && ti.coeff === term.coeff) {
-			return true;
-		}
-	}
-	return false;
 }
 
 /*
@@ -279,9 +272,11 @@ function getTwoSide(){
 	expressions.forEach(function(expression){
 		expression = expression;
 		if(expression.topLevel && expression.side === "left"){
+			console.log("left top level expression");
 			sides.unshift(expression);
 		}else{
 			if(expression.topLevel && expression.side === "right"){
+				console.log("left right level expression");
 				sides.push(expression);
 			}
 		}
@@ -357,7 +352,7 @@ function getExpressionString(expression){
 		if(term.type == "Expr"){
 			termRepr = "(" + getExpressionString(term) + ")" + " + ";
 		}else{
-			termRepr = "(" + termStr(term) + ")" + " + "; 
+			termRepr = "(" + termStr(term) + ")" + " + ";
 		}
 		repr += termRepr;
 	});
@@ -386,7 +381,7 @@ function getEquationString(){
 * parsing problem string to initialize working memory
 *
 */
-function simpleTerm(c, v, s) {   	
+function simpleTerm(c, v, s) {
    	this.coeff = c;
    	this.var = v;
    	this.side = s;
@@ -423,27 +418,24 @@ function productTerm(f,s){
 
 
 function getFactsFromNode(facts,node,side,topLevel){
-	console.log("getFactsFromNode, side is "+side+", topLevel is "+topLevel+", node is ");
-	console.log(node);
 	if(topLevel && node.operator !== "PLUS"){
 		var terms = [];
 		var idx = getFactsFromNode(facts,node,side,false);
 		terms.push(idx);
 		var newExpr = new Expr(side,terms,topLevel);
 		facts.push(newExpr);
-		
-		console.log("new Expression: ", newExpr);
-
 		return;
 	}
 	switch(node.operator){
 		case "VAR" :
 			var newVariable = new simpleTerm(node.sign, node.variable, side);
 			facts.push(newVariable);
+			return (facts.length - 1);
 			break;
 		case "CONST" :
 			var newConstant = new simpleTerm(node.value * node.sign, null, side);
 			facts.push(newConstant);
+			return (facts.length - 1);
 			break;
 		case "UMINUS" :
 			var baseNode = node.base;
@@ -451,16 +443,18 @@ function getFactsFromNode(facts,node,side,topLevel){
 			if(baseNode.operator === "VAR"){
 				var newVariable = new simpleTerm(-1, baseNode.variable, side);
 				facts.push(newVariable);
+				return (facts.length - 1);
 			}else if(baseNode.operator === "CONST"){
 				//this is a simpleTerm
 				var newConstant = new simpleTerm((-1) * baseNode.value * baseNode.sign, null, side);
 				facts.push(newConstant);
+				return (facts.length - 1);
 			}else{
 				//this is a productTerm
 				console.log("productTerm");
 			}
 			break;
-		case "PLUS" : 
+		case "PLUS" :
 			//new Expression
 			var terms = [];
 			node.terms.forEach(function(subNode){
@@ -468,83 +462,60 @@ function getFactsFromNode(facts,node,side,topLevel){
 				terms.push(idx);
 			});
 			var newExpr = new Expr(side,terms,topLevel);
-			
-							console.log("new Expression: ", newExpr);
-			
 			facts.push(newExpr);
+			return (facts.length - 1);
 			break;
 		case "TIMES" :
-			var numerFactors = node.factors.filter((f) => f.exp > 0);
-			var denomFactors = node.factors.filter((f) => f.exp < 0);
-			var numerFacts = [];
-			var denomFacts = [];
-			[numerFactors,denomFactors].forEach((factors, idx) => {
-				var factList = (idx === 0 ? numerFacts : denomFacts);
-				//check if this is a simpleTerm or a productTerm
-				if(factors.length == 2 
-					&& ((node.factors[0].operator === "VAR" && node.factors[1].operator === "CONST")
-						||(node.factors[1].operator === "VAR" && node.factors[0].operator === "CONST"))){
-					//This is a simpleTerm :  4x
-					var f1 = node.factors[0];
-					var f2 = node.factors[1];
-					var variable;
-					var coeff;
-					if(f1.operator === "VAR"){
-						variable = f1.variable;
-						coeff = f2.value * f2.sign * node.sign;
-					}else{
-						variable = f2.variable;
-						coeff = f1.value * f1.sign * node.sign;
-					}
-					var newSimpleTerm = new simpleTerm(coeff, variable, side);
-					facts.push(newSimpleTerm);
-					factList.push(facts.length-1);
-				}else if( (node.factors.length == 2) 
-					&& (node.factors[0].operator === "UMINUS")
-					&& (node.factors[1].operator === "VAR") 
-					&& (node.factors[0].base.operator === "CONST")){
-					//This is a simpleTerm :  -3x
-					var f0 = node.factors[0];
-					var f1 = node.factors[1];
-					var variable = f1.variable;
-					var	coeff = f0.base.value * (-1);
-					var newSimpleTerm = new simpleTerm(coeff, variable, side);
-					facts.push(newSimpleTerm);
-					factList.push(facts.length-1);
-				}else if (factors.length) {
-					//This is a productTerm
-					let numerExprs = [];
-					
-					if (factors.length > 1) {
-						factors.forEach(function(subNode){
-							var idx = getFactsFromNode(facts,subNode,side,false);
-							if(facts[idx].type != "Expr"){
-								//create an expression
-								var terms = [idx];
-								var newExpr = new Expr(side,terms,topLevel);
-								
-								console.log("new Expression: ", newExpr);
-								
-								facts.push(newExpr);
-							}
-							numerExprs.push(facts.length-1);
-						});
-						var newProductTerm = new productTerm(numerExprs,side);
-						facts.push(newProductTerm);
-						factList.push(facts.length-1);
-					} else {
-						let idx = getFactsFromNode(facts, factors[0], side, false);
-						factList.push(idx);
-					}
+			//check if this is a simpleTerm or a productTerm
+			if(node.factors.length == 2
+				&& ((node.factors[0].operator === "VAR" && node.factors[1].operator === "CONST")
+					||(node.factors[1].operator === "VAR" && node.factors[0].operator === "CONST"))){
+				//This is a simpleTerm :  4x
+				var f1 = node.factors[0];
+				var f2 = node.factors[1];
+				var variable;
+				var coeff;
+				if(f1.operator === "VAR"){
+					variable = f1.variable;
+					coeff = f2.value * f2.sign;
+				}else{
+					variable = f2.variable;
+					coeff = f1.value * f1.sign;
 				}
-			});
-			if (denomFactors.length) {
-				var numerExpr = new Expr(side, numerFacts, false);
-				var denomExpr = new Expr(side, denomFacts, false);
-				facts.push(numerExpr);
-				facts.push(denomExpr);
-				var newDivTerm = new divTerm([facts.length-2, facts.length-1], side);
-				facts.push(newDivTerm);
+				var newSimpleTerm = new simpleTerm(coeff, variable, side);
+				facts.push(newSimpleTerm);
+				return (facts.length - 1);
+			}else if( (node.factors.length == 2)
+				&& (node.factors[0].operator === "UMINUS")
+				&& (node.factors[1].operator === "VAR")
+				&& (node.factors[0].base.operator === "CONST")){
+				//This is a simpleTerm :  -3x
+				var f0 = node.factors[0];
+				var f1 = node.factors[1];
+				var variable = f1.variable;
+				var	coeff = f0.base.value * (-1);
+				var newSimpleTerm = new simpleTerm(coeff, variable, side);
+				facts.push(newSimpleTerm);
+				return (facts.length - 1);
+
+			}else{
+				//This is a productTerm
+				factors = [];
+				node.factors.forEach(function(subNode){
+					var idx = getFactsFromNode(facts,subNode,side,false);
+					if(facts[idx].type != "Expr"){
+						//create an expression
+						var terms = [idx];
+						var newExpr = new Expr(side,terms,topLevel);
+						facts.push(newExpr);
+						factors.push(facts.length - 1);
+					}else{
+						factors.push(idx);
+					}
+				});
+				var newProductTerm = new productTerm(factors,side);
+				facts.push(newProductTerm);
+				return (facts.length - 1);
 			}
 			break;
 		case "EQUAL" :
@@ -555,7 +526,6 @@ function getFactsFromNode(facts,node,side,topLevel){
 		default :
 			return;
 	}
-	return facts.length - 1;
 }
 
 
@@ -602,23 +572,20 @@ function getAllTerms(e, terms){
 
 var possibleInputs = {
 	"left": {},
-	"right": {},
-	"full": {}
+	"right": {}
 };
 var writeInputs = [];
 
 function clearInputHistory() {
 	possibleInputs = {
 		"left": {},
-		"right": {},
-		"full": {}
+		"right": {}
 	};
 	writeInputs = [];
 }
 
 function inputRepeated(input, side){
-	let ret = possibleInputs[side][input];
-	return ret;
+	return possibleInputs[side][input];
 }
 
 function recordInput(input, side){
@@ -744,28 +711,4 @@ function __hasDivTerm(exp) {
 			break;
 		}
 	}
-}
-
-//ret type of interface being used.  Either "dragndrop", "typein", or "diagrams"
-function getInterfaceType() {
-	return window.interfaceType;
-}
-
-var _validSteps = [];
-function clearValidSteps() {
-	_validSteps = [];
-}
-
-function addValidStep(operation, operand, expBefore, expAfter, hints, skills) {
-	_validSteps.push({"operation": operation, "operand": operand, "expBefore": expBefore, "expAfter": expAfter, "hints": hints, "skills": skills});
-}
-
-function stringifyValidSteps() {
-	var str = _validSteps.map((step)=>{ return step.expAfter+','+step.operation+','+step.operand }).join('|');
-	return str;
-}
-
-function getValidStepHints() {
-	//for now just return first one.
-	return _validSteps[0] ? _validSteps[0].hints : [];
 }

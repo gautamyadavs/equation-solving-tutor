@@ -1,6 +1,8 @@
 define Problem {     // do we need this at all? mostly used for accessing the solution rows in order
 	name: null,
 	rows: null,
+	combinedDivTerms: null,
+	distributedDivTerms: null,
 	movedSimpleTerms : null,
 	termToBeCanceled : null,
 	variableSide : null,
@@ -10,25 +12,35 @@ define Problem {     // do we need this at all? mostly used for accessing the so
 
 	numTran : null,
 	numSim : null,
-	diagramRowNum: null,
-	numRows: null,
 
 	currTransformation : null,
 
-	constructor: function(n,l, stepSkipLevel, doShallowSearch, useD) {
+	constructor: function(n,l, config) {
 		this.name = n;
 		this.rows = l;
 		this.movedSimpleTerms = [];
 		this.termToBeCanceled = [];
 		this.divisorToBeDeleted = [];
+		this.combinedDivTerms = [];
+		this.distributedDivTerms = [];
+		this.dividedBy = null;
 		this.swapped = false;
 		this.numTran = 10;
 		this.numSim = 10;
-		this.numRows = 0;
-		this.diagramRowNum = 0;
-		this.stepSkipLevel = stepSkipLevel || 3;
-		this.shallowSearch = doShallowSearch || false;
-		this.useDiagrams = useD || false;
+		this.stepSkipLevel = config.stepSkipLevel || 3;
+		this.shallowSearch = config.shallowSearch || false;
+		this.useDiagrams = config.useDiagrams || false;
+		this.allowNegativeTerms = config.allowNegativeTerms || false;
+		this.dragNDrop = config.dragNDrop;
+		this.forceSimplify = config.forceSimplify;
+		this.showNextRow = config.showNextRow;
+		this.operatorsFirst = config.operatorsFirst;
+		this.diagramsFirst = config.diagramsFirst;
+		this.nextStep = {};
+		this.validStepHints = [];
+		if (!config.diagramsFirst) {
+			this.generatingSteps = true;
+		}
 	}
 }
 
@@ -41,7 +53,7 @@ define Expr {          // wonder if we should call this type "termArray" or "ter
    constructor: function(s, t, top) {
    		this.side = s;
    		this.terms = t;
-        this.type = "Expr";             // if Nools has function that returns the fact type, would be
+        this.type = "Expr";             // if Nools has function that returns the fact type, would be 
         								//     better to use that instead
 		this.topLevel = top;
         setFactNr(this);
@@ -89,6 +101,29 @@ define productTerm {
 	}
 }
 
+define unknownTerm {
+	factNr: null,
+	type: null,
+	couldBe: null,
+	constructor: function(f) {
+		this.type = "unknownTerm";
+		setFactNr(this);
+	}
+}
+
+define PartialTransformation {
+	exp1: null,
+	exp2: null,
+	operator: null,
+	operand: null,
+	operator2Selected: false,
+	constructor: function(e1, e2, operator, operand) {
+		this.exp1 = e1;
+		this.exp2 = e2;
+		this.operator = operator;
+		this.operand = operand;
+	}
+}
 
 define cycleInfo {      // stores info that is needed only for the duration of the cycle
 	focus: null,
@@ -100,7 +135,7 @@ define cycleInfo {      // stores info that is needed only for the duration of t
 	//for search space control:
 	divEarlyCancelTerm : null,
 	divEarlyCombineTerm : null,
-
+	
 	swapped : false,
 	combined : false,
 	divided : false,
@@ -124,12 +159,18 @@ define cycleInfo {      // stores info that is needed only for the duration of t
 	skippedTooManySteps : null,
 	opStr: null,
 	ogStr: null,
-
+	
 	//true if model-generated exp is bug prediction
 	inputIsBug: false,
 	bugMessage: '',
-
-	constructor: function(f, s, free, nTrans, ogStr) {
+	
+	//type of student interaction (dragndrop only)
+	stepType: null,
+	
+	//corresponding interfaceElement fact
+	interfaceElement: null,
+	
+	constructor: function(f, s, free, nTrans, ogStr, st, ie) {
 		this.focus = f;
 		this.selection = s;
 		this.otherSideFree = free;
@@ -151,7 +192,11 @@ define cycleInfo {      // stores info that is needed only for the duration of t
 
 		this.opStr = '';
 		this.ogStr = ogStr;
-
+		
+		this.stepType = st;
+		
+		this.interfaceElement = ie;
+		
 		setFactNr(this);
 	}
 }
@@ -186,6 +231,19 @@ define interfaceElement {
 		this.name = n;
 		this.value = v;
 		this.side = s;
+	}
+}
+
+define interfaceElementDnd {
+	name: null,
+	side: null,
+	operator: null,
+	operand: null,
+	constructor: function(n, s, or, od) {
+		this.name = n;
+		this.side = s;
+		this.operator = or;
+		this.operand = od;
 	}
 }
 

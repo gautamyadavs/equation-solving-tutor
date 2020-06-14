@@ -22,12 +22,12 @@ global skillDefinitions = [
 	{
 		category: "simplification",
 		skillName: "combine-like-var",
-		label: "Combine Like Variable Terms"
+		label: "Combine Variable Terms"
 	},
 	{
 		category: "simplification",
 		skillName: "combine-like-const",
-		label: "Combine Like Constant Terms"
+		label: "Combine Constant Terms"
 	},
 	{
 		category: "simplification",
@@ -47,31 +47,6 @@ global skillDefinitions = [
 	{
 		category: "simplification",
 		skillName: "cancel-const",
-		label: "Cancel Const Terms"
+		label: "Cancel Constant Terms"
 	},
-	{
-		category: "simplification",
-		skillName: "distribute-multiplication",
-		label: "Distribute Multiplication"
-	},
-	{
-		category: "diagram",
-		skillName: "selectd-subtract-const",
-		label: "Diagram - Subtract Constant"
-	},
-	{
-		category: "diagram",
-		skillName: "selectd-subtract-var",
-		label: "Diagram - Subtract Variable"
-	},
-	{
-		category: "diagram",
-		skillName: "selectd-given-eq",
-		label: "Diagram - Given Equation"
-	},
-	{
-		category: "diagram",
-		skillName: "selectd-divide",
-		label: "Diagram - Division"
-	}
 ];

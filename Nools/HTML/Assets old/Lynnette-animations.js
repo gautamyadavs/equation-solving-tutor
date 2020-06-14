@@ -58,8 +58,6 @@ function dynamicHintWindow() {
           // document.getElementById("leftHintButton").style.display = "none";
           // document.getElementById("rightHintButton").style.display = "none";
           document.getElementById("HintWindow").style.display = "flex";
-          var panel = document.getElementById("middlePanel");
-          panel.scrollTop = panel.scrollHeight;
         }
       }
       if (evt === "InterfaceAction" && msg) {
@@ -72,8 +70,6 @@ function dynamicHintWindow() {
           var selection = (sai ? sai.getSelection() : "_noSuchComponent_");
           if (sai.getAction() === "SetVisible") {
             document.getElementById(selection).style.display = "flex";
-            var panel = document.getElementById("middlePanel");
-            panel.scrollTop = panel.scrollHeight;
 
             //contiguous submit step button
             var num = 1;

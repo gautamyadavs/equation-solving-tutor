@@ -1,0 +1,13 @@
+import("productionrulesMB.nools");
+
+global pName = "4xplus1eqxplus10";
+global initLeft = "4x+1";
+global initRight = "x+10";
+global finalX = "3";
+
+global interfaceType = "diagrams";
+global diagramsFirst = true;
+global stepSkipLevel = 2;
+global shallowSearch = true;
+global pregenConflictTree = false;
+global parseProblem = true;

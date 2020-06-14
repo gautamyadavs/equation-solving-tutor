@@ -97,31 +97,6 @@ var ConflictTree = declare({
 			return this.head;
 		},
 		
-		getMatchChains: function() {
-			let chains = [];
-			let processNode = function(node, rules) {
-				rules.push(node.name);
-				if (node.match) {
-					chains.push({
-						'match': node.match,
-						'rules': rules.slice()
-					});
-				}
-				
-				processChildren(node, rules);
-			}
-			let processChildren = function(node, rules) {
-				let children = node.getChildren();
-				for (let childId in children) {
-					processNode(children[childId], rules);
-				}
-			}
-			
-			processChildren(this.head, []);
-			
-			return chains;
-		},
-		
 		clear: function() {
 			this.head = new ConflictTreeNode("root", "root", 0);
 			this.currNode = this.head;
@@ -146,7 +121,7 @@ var ConflictTree = declare({
 			}
 		},
 		
-		toString: function(firedOnly, inclSAIs) {
+		toString: function(firedOnly) {
 			let treeStr = "";
 			let processNode = function(node, depth) {
 				let children = node.getChildren();
@@ -155,7 +130,7 @@ var ConflictTree = declare({
 					tabStr+='        '
 				}
 				if (!firedOnly || node.activationStatus === ConflictTree.ACTIVATION_STATES.FIRED) {
-					treeStr += tabStr + node.toString(inclSAIs);
+					treeStr += tabStr + node.toString();
 				}
 				processChildren(node, depth+1);
 			}
@@ -226,7 +201,7 @@ var ConflictTreeNode = declare({
 			return this.match;
 		},
 		
-		toString: function(inclSAI) {
+		toString: function() {
 			var str = "";
 			if (this.matcherStatus) {
 				let fields = this.matchedFields;
@@ -239,14 +214,7 @@ var ConflictTreeNode = declare({
 			} else {
 				str += '     ';
 			}
-			str += "["+this.id+"]"+this.name;
-			if (inclSAI) {
-				let tSAI = this.match ? this.match.tutor : null;
-				if (tSAI) {
-					str += tSAI.selection+' ; '+tSAI.action+" ; "+tSAI.input;
-				}
-			}
-			str += '\n';
+			str += "["+this.id+"]"+this.name+'\n';
 			return str;
 		}
 	}
@@ -2885,6 +2853,7 @@ module.exports = (function() {
 					ret = false,
 					focusedAgenda = null,
 					goBack = false,
+					agendaArray,
 					activation;
 				
 				if (isFirstFire) {
@@ -2909,9 +2878,6 @@ module.exports = (function() {
 						return false;
 					}
 					this.brokeOn = null;
-					
-					oldActivations = focusedAgenda.toObject("activationId");
-					
 					this.handlePreFire(activation, isFirstFire);
 					var fired = activation.rule.fire(this.flow, activation.match);
 					var searchNotOver = this.handlePostFire();
@@ -3116,24 +3082,6 @@ module.exports = (function() {
 				var rule = this.rules[v.name];
 				rule.tree.remove(v);
 				rule.factTable.remove(v);
-			},
-			
-			/**
-			*	Remove all stale (not added by last fire) activations from the agenda
-			*/
-			pruneOldActivations: function() {
-				var activations = this.getFocusedAgenda().toArray(),
-					prunedIds = [],
-					ptr = this;
-				
-				activations.forEach(function(a) {
-					if (!newActivations[a.activationId]) {
-						ptr.removeActivation(a);
-						prunedIds.push(a.activationId);
-					}
-				});
-				
-				return prunedIds;
 			},
 			
 			/**
@@ -3683,10 +3631,6 @@ module.exports = declare(Flow, {
 */
 			this.setAboutToBacktrack(true);
 			this.setFullBacktrack(true);
-		},
-		
-		pruneOldActivations: function() {
-			return this.agenda.pruneOldActivations();
 		},
 		
 		backtrack: function(initiatedByModel) {
